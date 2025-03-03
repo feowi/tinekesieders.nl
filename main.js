@@ -1310,9 +1310,6 @@ Game.Launch=function()
 	'<div class="selectable">'+
 	'<div class="section">'+loc("Info")+'</div>'+
 	'<div class="subsection">'+
-	'<div class="title">'+loc("About")+'</div>'+
-	+'</div>'+
-	'</div></div>'
 	
 	'</div><div class="subsection">'
 	
