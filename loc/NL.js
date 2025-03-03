@@ -859,8 +859,8 @@ AddLanguage('NL','dutch',{
 	"cursor": "Facebook Klikker",
 	"cursors": "Facebook Klikkers",
 	"%1 cursor": [
-		"%1 cursor",
-		"%1 cursors"
+		"%1 Facebook Klikker",
+		"%1 Facebook Klikkers"
 	],
 	"[Cursor quote]Autoclicks once every 10 seconds.": "Klikt elke 10 seconden automatisch.",
 	"[Cursor business name]Rolling pin": "Deegroller",
@@ -869,8 +869,8 @@ AddLanguage('NL','dutch',{
 	"grandma": "Tineke Sieders",
 	"grandmas": "Tineke Sieders",
 	"%1 grandma": [
-		"%1 oma",
-		"%1 oma's"
+		"%1 Tineke Sieders",
+		"%1 Tineke Sieders"
 	],
 	"[Grandma quote]A nice grandma to bake more cookies.": "Een lief omaatje die koekjes voor je bakt.",
 	"[Grandma business name]Oven": "Oven",
@@ -879,8 +879,8 @@ AddLanguage('NL','dutch',{
 	"farm": "Slavenij",
 	"farms": "Slavenijen",
 	"%1 farm": [
-		"%1 boerderij",
-		"%1 boerderijen"
+		"%1 Slavenij",
+		"%1 Slavenijen"
 	],
 	"[Farm quote]Grows cookie plants from cookie seeds.": "Laat katoenplukkers voor je werken.",
 	"[Farm business name]Kitchen": "Negerjonk",
@@ -889,18 +889,18 @@ AddLanguage('NL','dutch',{
 	"mine": "Slaaf",
 	"mines": "Slaven",
 	"%1 mine": [
-		"%1 mijn",
-		"%1 mijnen"
+		"%1 Slaaf",
+		"%1 Slaven"
 	],
 	"[Mine quote]Mines out cookie dough and chocolate chips.": "Verkracht kinderen voor koeken.",
 	"[Mine business name]Secret recipe": "Geheim recept",
 	"[Mine business quote]These give you the edge you need to outsell those pesky competitors.": "Dat heb je nodig om meer te kunnen verkopen dan je concurrenten.",
-	"Factory": "Fabriek",
-	"factory": "fabriek",
-	"factories": "fabrieken",
+	"Factory": "Rogier Eradus",
+	"factory": "Rogier Eradus",
+	"factories": "Rogier Eradus",
 	"%1 factory": [
-		"%1 fabriek",
-		"%1 fabrieken"
+		"%1 Rogier Eradus",
+		"%1 Rogier Eradus"
 	],
 	"[Factory quote]Produces large quantities of cookies.": "Produceert grote hoeveelheden koekjes.",
 	"[Factory business name]Factory": "Fabriek",
@@ -925,12 +925,12 @@ AddLanguage('NL','dutch',{
 	"[Temple quote]Full of precious, ancient chocolate.": "Tjokvol eeuwenoude chocolade van onschatbare waarde",
 	"[Temple business name]Like": "Vind ik leuk",
 	"[Temple business quote]Your social media page is going viral! Amassing likes is the key to a lasting online presence and juicy advertising deals.": "Je socialemediapagina gaat viraal! Verzamel zoveel mogelijk vind-ik-leuks zodat je online goed te vinden bent en de beste deals krijgt.",
-	"Wizard tower": "Tovenaarstoren",
-	"wizard tower": "tovenaarstoren",
-	"wizard towers": "tovenaarstorens",
+	"Wizard tower": "Dildo",
+	"wizard tower": "Dildo",
+	"wizard towers": "Dildos",
 	"%1 wizard tower": [
-		"%1 tovenaarstoren",
-		"%1 tovenaarstorens"
+		"%1 Dildo",
+		"%1 Dildos"
 	],
 	"[Wizard tower quote]Summons cookies with magic spells.": "Roept koekjes op met magische toverspreuken.",
 	"[Wizard tower business name]Meme": "Meme",
