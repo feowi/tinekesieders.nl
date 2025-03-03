@@ -1361,6 +1361,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; saysopensesame werkt niet meer 😛</div>'+
 	'<div class="listing">&bull; Golden cookie is haar hoofd in de vorm van een kipnugget, Dat was perongeluk.</div>'+
 	'<div class="listing">&bull; Rechtsboven in moet je de taal wel veranderen naar "Kies deze!!!" voor alle namen.</div>'+
+	'<div class="listing">&bull; Nieuwe namen voor je cookie factory, Een paar gekke ook.." voor alle namen.</div>'+
 	'<div class="listing">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
 	
 	'</div><div class="subsection update">'+
