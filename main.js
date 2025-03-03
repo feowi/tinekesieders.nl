@@ -1329,7 +1329,8 @@ Game.Launch=function()
 	
 	Game.updateLog+=
 	
-	'</div></div>';
+	'</div><div class="subsection update">'+
+
 	'</div><div class="subsection update">'+
 	'<div class="title">69/69/0420 - BELANGRIJK!!</div>'+
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken, Als je dat doet klik dan op "Kies deze!!!". Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
