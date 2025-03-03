@@ -1308,10 +1308,9 @@ Game.Launch=function()
 	
 	Game.updateLog=
 	'<div class="selectable">'+
-	'<div class="section">'+loc("Info")+'</div>'+
+	'<div class="section">'+loc("TIENEKESIEDERS.NL UPDATES")+'</div>'+
 	'<div class="subsection">'+
-	
-	'</div><div class="subsection">'
+    '</div><div class="subsection">'
 	
 	for (var i=0;i<locPatches.length;i++)
 	{
@@ -1331,13 +1330,16 @@ Game.Launch=function()
 	Game.updateLog+=
 	
 	'</div><div class="subsection update">'+
+	'<div class="title">69/69/0420 - BELANGRIJK!!</div>'+
+	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken, Als je dat doet klik dan op "Kies deze!!!". Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
+	
+	'</div><div class="subsection update">'+
 	'<div class="title">??/03/2025 - De Betere tinekesieders.nl Update</div>'+
 	'<div class="listing">&bull; Op dezelfde versie zoals cookieclicker zelf.</div>'+
 	'<div class="listing">&bull; Nieuwe plaatjes aan de zijkant en in het midden.</div>'+
 	'<div class="listing">&bull; Bijna elk achtergrond heeft haar hoofd.</div>'+
 	'<div class="listing">&bull; saysopensesame werkt niet meer 😛</div>'+
 	'<div class="listing">&bull; Golden cookie is haar hoofd in de vorm van een kipnugget, Dat was perongeluk.</div>'+
-	'<div class="listing">&bull; Rechtsboven in moet je de taal wel veranderen naar "Kies deze!!!" voor alle namen.</div>'+
 	'<div class="listing">&bull; ROGIER ERADUS DE SNACKBAR MAN ZIT ER IN!!!!</div>'+
 	'<div class="listing">&bull; Oh ja ook een dildo + Easytoys..</div>'+
 	'<div class="listing">&bull; Een upgrade heeft een andere naam, Succes met hem zoeken</div>'+
