@@ -233,7 +233,7 @@ AddLanguage('NL','dutch',{
 	"Dragonfruit milk": "Drakenvruchtmelk",
 	"Peach milk": "Perzikmelk",
 	"Hazelnut milk": "Hazelnootmelk",
-	"Info": "/",
+	"Info": "Updates",
 	"About": "Over",
 	"Cookie Clicker is a javascript game by %1 and %2.": "Cookie Clicker is een javascriptspel van %1 en %2.",
 	"Music by %1.": "Muziek met %1.",
