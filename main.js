@@ -1334,7 +1334,7 @@ Game.Launch=function()
 	(!App?('<div class="listing warning">'+loc("Warning: clearing your browser cache or cookies <small>(what else?)</small> will result in your save being wiped. Export your save and back it up first!")+'</div>'):'')+
 	
 	'</div><div class="subsection">'+
-	'<div class="title">'+loc("Version history")+'</div>';
+	'<div class="title">'+loc("TINEKE MILF")+'</div>';
 	
 	for (var i=0;i<locPatches.length;i++)
 	{
