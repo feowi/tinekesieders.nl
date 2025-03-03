@@ -244,7 +244,6 @@ AddLanguage('NL','dutch',{
 	"Version history": "Versiegeschiedenis",
 	"Official website": "Officiële website",
 	"Note: links will open in your web browser.": "Opmerking: links openen in je webbrowser.",
-	"Note: older update notes are in English.": "Opmerking: oudere updatebeschrijvingen zijn in het Engels.",
 	"This feature is not yet available in your language.": "Deze functie is nog niet beschikbaar in jouw taal.",
 	"Restart with new changes": "Opnieuw opstarten met nieuwe wijzigingen",
 	"Cookie Clicker is in sleep mode.": "Cookie Clicker staat in de slaapmodus.",
