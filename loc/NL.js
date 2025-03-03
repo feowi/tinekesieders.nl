@@ -885,16 +885,16 @@ AddLanguage('NL','dutch',{
 	"[Farm quote]Grows cookie plants from cookie seeds.": "Laat katoenplukkers voor je werken.",
 	"[Farm business name]Kitchen": "Negerjonk",
 	"[Farm business quote]The more kitchens, the more cookies your employees can produce.": "Hoe meer negers, hoe meer koekjes je slaafjes kunnen bakken.",
-	"Mine": "Slaaf",
-	"mine": "Slaaf",
-	"mines": "Slaven",
+	"Mine": "Kind Uit Oekraïne",
+	"mine": "Kind Uit Oekraïne",
+	"mines": "Kind Uit Oekraïne",
 	"%1 mine": [
-		"%1 Slaaf",
-		"%1 Slaven"
+		"%1 Kind Uit Oekraïne",
+		"%1 Kind Uit Oekraïne"
 	],
-	"[Mine quote]Mines out cookie dough and chocolate chips.": "Verkracht kinderen voor koeken.",
+	"[Mine quote]Mines out cookie dough and chocolate chips.": "KABOEM!!!!!!",
 	"[Mine business name]Secret recipe": "Geheim recept",
-	"[Mine business quote]These give you the edge you need to outsell those pesky competitors.": "Dat heb je nodig om meer te kunnen verkopen dan je concurrenten.",
+	"[Mine business quote]These give you the edge you need to outsell those pesky competitors.": "Dat heb je nodig om meer te kunnen vermoorden dan je concurrenten.",
 	"Factory": "Rogier Eradus",
 	"factory": "Rogier Eradus",
 	"factories": "Rogier Eradus",
