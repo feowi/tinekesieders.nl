@@ -1325,11 +1325,7 @@ Game.Launch=function()
 		'<a href="https://twitter.com/orteil42" target="_blank" class="highlightHover smallBlackButton">twitter</a>',
 		]))
 	+'</div>'+
-	(!App?'<div class="listing block" style="margin:8px 32px;font-size:11px;line-height:110%;color:rgba(200,200,255,1);background:rgba(128,128,255,0.15);" id="supportSection">'+loc(
-		"This version of Cookie Clicker is 100% free, forever. Want to support us so we can keep developing games? Here's some ways you can help:%1",
-		[(!App?'<br><br>&bull; '+(EN?'get ':'')+'<a href="https://store.steampowered.com/app/1454400/Cookie_Clicker/" target="_blank" class="highlightHover smallWhiteButton">Cookie Clicker on Steam</a>':'')+''+(EN?' (it\'s about 5 bucks)':'')+'<br><br>&bull; '+(EN?'support us on ':'')+'<a href="https://www.patreon.com/dashnet" target="_blank" class="highlightHover smallOrangeButton">Patreon</a>'+(EN?' (there\'s perks!)':'')+'<br><br>&bull; '+(EN?'check out our ':'')+'<a href="http://www.redbubble.com/people/dashnet" target="_blank" class="highlightHover smallWhiteButton">Shop</a>'+(EN?' with rad cookie shirts, hoodies and stickers':'')+((!App && EN)?'<br><br>&bull; disable your adblocker (if you want!)':'')]
-	)+
-	'</div></div>':'')+
+	'</div></div>'
 	
 	'</div><div class="subsection">'
 	
