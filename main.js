@@ -1346,7 +1346,7 @@ Game.Launch=function()
 		Game.updateLog+=patchText;
 	}
 	
-	if (!EN) Game.updateLog+='<div class="listing" style="font-weight:bold;font-style:italic;opacity:0.5;">'+loc("Note: older update notes are in English.")+'</div>';
+	
 	
 	Game.updateLog+=
 	
