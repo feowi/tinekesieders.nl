@@ -3,14 +3,14 @@ AddLanguage('NL','dutch',{
 		"language": "NL",
 		"plural-forms": "nplurals=2;plural=(n!=1);"
 	},
-	"cookie": "tieneke koekje",
-	"sugar lump": "suikerkontje",
-	"heavenly chip": "hemelse stukjes",
-	"wrinkler": "mee-vreter",
-	"building": "gebouw",
-	"upgrade": "/",
-	"golden cookie": "gouden tineke koekje",
-	"grandmapocalypse": "/",
+	"cookie": "Tieneke Koekje",
+	"sugar lump": "Suikerkontje",
+	"heavenly chip": "Hemelse Stukjes",
+	"wrinkler": "Mee-vreter",
+	"building": "Gebouw",
+	"upgrade": "Upgrade",
+	"golden cookie": "Gouden Tineke Koekje",
+	"grandmapocalypse": "Zombie Tineke Milf",
 	"%1 cookie": [
 		"%1 koekje",
 		"%1 koekjes"
@@ -57,7 +57,7 @@ AddLanguage('NL','dutch',{
 	"Ctrl": "/",
 	"Ctrl-click": "Ctrl-klik",
 	"Esc": "/",
-	"Cookies": "Koekjes",
+	"Cookies": "Tineke Koekjes",
 	"%1 day": [
 		"%1 dag",
 		"%1 dagen"
@@ -1860,7 +1860,7 @@ AddLanguage('NL','dutch',{
 	"[Upgrade name 4]Million fingers": "Een miljoen vingers",
 	"[Upgrade name 5]Billion fingers": "Een miljard vingers",
 	"[Upgrade name 6]Trillion fingers": "Een biljoen vingers",
-	"[Upgrade name 7]Forwards from grandma": "Verder met oma",
+	"[Upgrade name 7]Forwards from grandma": "Verder met oma neuken",
 	"[Upgrade name 8]Steel-plated rolling pins": "Stalen deegrollers",
 	"[Upgrade name 9]Lubricated dentures": "Gesmeerd gebit",
 	"[Upgrade name 10]Cheap hoes": "Goedkope schoffels",
