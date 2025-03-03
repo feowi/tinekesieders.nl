@@ -1363,6 +1363,8 @@ Game.Launch=function()
 	'<div class="listing">&bull; Rechtsboven in moet je de taal wel veranderen naar "Kies deze!!!" voor alle namen.</div>'+
 	'<div class="listing">&bull; ROGIER ERADUS DE SNACKBAR MAN ZIT ER IN!!!!</div>'+
 	'<div class="listing">&bull; Oh ja ook een dildo + Easytoys..</div>'+
+	'<div class="listing">&bull; Een upgrade heeft een andere naam, Succes met hem zoeken</div>'+
+	'<div class="listing">&bull; Koekjes heten nu Tineke Koekjes</div>'+
 	'<div class="listing">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
 	
 	'</div><div class="subsection update">'+
