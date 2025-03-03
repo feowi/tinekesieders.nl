@@ -1365,6 +1365,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; Oh ja ook een dildo + Easytoys..</div>'+
 	'<div class="listing">&bull; Een upgrade heeft een andere naam, Succes met hem zoeken</div>'+
 	'<div class="listing">&bull; Koekjes heten nu Tineke Koekjes</div>'+
+	'<div class="listing">&bull; Koekjes achter Tinekes Goddelijke kop zitten nu ook meer Tinekes en Rogiers</div>'+
 	'<div class="listing">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
 	
 	'</div><div class="subsection update">'+
