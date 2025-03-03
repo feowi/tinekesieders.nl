@@ -2260,7 +2260,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (!App && name.indexOf('saysopensesame',name.length-('saysopensesame').length)>0 && !Game.sesame) Game.OpenSesame();
+			if (!App && name.indexOf('milfneuker',name.length-('milfneuker').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
@@ -2488,7 +2488,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Granny','Gusher','Ethel','Edna','Doris','Maud','Hilda','Gladys','Michelle','Michele','Phyllis','Millicent','Muriel','Myrtle','Mildred','Mavis','Helen','Gloria','Sheila','Betty','Gertrude','Agatha','Beryl','Agnes','Pearl','Precious','Ruby','Vera','Bonnie','Ada','Bunny','Cookie','Darling','Gaga','GamGam','Memaw','Mimsy','Peanut','Nana','Nan','Tootsie','Warty','Stinky','Heinous'];
+		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Pussy_Destroyer24','Obama','Trump','Putin','Michel Eradus','Nina Eradus','Richard Eradus','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders'];
 		Game.customGrandmaNames=[];
 		Game.heralds=0;
 		
@@ -15883,7 +15883,7 @@ Game.Launch=function()
 		Game.killShimmers();
 		
 		//booooo
-		Game.RuinTheFun=function(silent)
+		Game.RuinTheFun=function(on)
 		{
 			Game.popups=0;
 			Game.SetAllUpgrades(1);
@@ -15938,7 +15938,7 @@ Game.Launch=function()
 			Game.recalculateGains=1;
 			Game.popups=1;
 		}
-		Game.GetAllDebugs=function()
+		Game.GetAllDebugs=function(on)
 		{
 			Game.popups=0;
 			for (var i in Game.Upgrades)
@@ -15949,7 +15949,7 @@ Game.Launch=function()
 			Game.recalculateGains=1;
 			Game.popups=1;
 		}
-		Game.MaxSpecials=function()
+		Game.MaxSpecials=function(on)
 		{
 			Game.dragonLevel=Game.dragonLevels.length-1;
 			Game.santaLevel=Game.santaLevels.length-1;
@@ -15966,7 +15966,7 @@ Game.Launch=function()
 		
 		Game.debugTimersOn=0;
 		Game.sesame=0;
-		Game.OpenSesame=function()
+		Game.OpenSesame=function(off)
 		{
 			var str='';
 			str+='<div class="icon" style="position:absolute;left:-9px;top:-6px;background-position:'+(-10*48)+'px '+(-6*48)+'px;"></div>';
@@ -15992,7 +15992,7 @@ Game.Launch=function()
 			str+='<a class="option warning" '+Game.clickStr+'="Game.RuinTheFun(1);">Ruin The Fun</a>';
 			str+='<a class="option warning" '+Game.clickStr+'="Game.SesameReset();">Wipe</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.GetAllDebugs();">All debugs</a>';
-			str+='<a class="option neato" '+Game.clickStr+'="Game.debugTimersOn=!Game.debugTimersOn;Game.OpenSesame();">Timers '+(Game.debugTimersOn?'On':'Off')+'</a><br>';
+			str+='<a class="option neato" '+Game.clickStr+'="Game.debugTimersOn=!Game.debugTimersOn;Game.OpenSesame();">Timers '+(Game.debugTimersOff?'On':'Off')+'</a><br>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.SetAllUpgrades(0);">No upgrades</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.SetAllUpgrades(1);">All upgrades</a><br>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.SetAllAchievs(0);">No achievs</a>';
@@ -16035,7 +16035,7 @@ Game.Launch=function()
 			}
 			
 			l('debug').style.display='block';
-			Game.sesame=1;
+			Game.sesame=0;
 			Game.Achievements['Cheated cookies taste awful'].won=1;
 		}
 		
@@ -16052,7 +16052,7 @@ Game.Launch=function()
 			if (!Game.DebuggingPrestige)
 			{
 				if (Game.loadAscendCalibrator) Game.loadAscendCalibrator();
-				Game.DebuggingPrestige=true;
+				Game.DebuggingPrestige=false;
 				Game.AscendTimer=0;
 				Game.OnAscend=1;
 				Game.removeClass('ascendIntro');
