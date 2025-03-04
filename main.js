@@ -1333,8 +1333,8 @@ Game.Launch=function()
 
 	'</div><div class="subsection update">'+
 	'<div class="title">69/69/0420 - BELANGRIJK!!</div>'+
-	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken, Als je dat doet klik dan op "Kies deze!!!". Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
-	'<div class="listing">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
+	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
+	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
 
 	'</div><div class="subsection update">'+
 	'<div class="title">04/03/2025 - De Betere tinekesieders.nl Update 2.0</div>'+
