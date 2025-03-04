@@ -1308,7 +1308,6 @@ Game.Launch=function()
 	
 	Game.updateLog=
 	'<div class="selectable">'+
-	'<div class="selectable">'+
 	'<div class="section">'+loc("TINEKESIEDERS.NL UPDATES")+'</div>'+
 	'<div class="subsection">'+
     '</div><div class="subsection">'
@@ -1945,7 +1944,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Pussy_Destroyer24','Obama','Trump','Putin','Michel Eradus','Nina Eradus','Richard Eradus','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders'];
+		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Pussy_Destroyer24','Obama','Trump','Putin','Michel Eradus','Nina Eradus','Richard Eradus','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten'];
 		Game.customGrandmaNames=[];
 		Game.heralds=0;
 		
