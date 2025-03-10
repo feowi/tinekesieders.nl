@@ -1337,7 +1337,13 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
 
 	'</div><div class="subsection update">'+
-	'<div class="title">04/03/2025 - De Betere tinekesieders.nl Update 2.0</div>'+
+	'<div class="title">04/03/2025 - Kleine patchnotes ofzo</div>'+
+	'<div class="listing">&bull; Nieuwe bakkerij namen.</div>'+
+	'<div class="listing">&bull; Frankdevisser.nl is toegevoegd bovenaan.</div>'+
+	'<div class="listing">&bull; Saysopensesame werkt nooit meer, Misschien wel, Misschien niet.</div>'+
+
+	'</div><div class="subsection update">'+
+	'<div class="title">04/03/2025 - De Betere tinekesieders.nl Fixes/div>'+
 	'<div class="listing">&bull; Meer oma namen.</div>'+
 	
 	'</div><div class="subsection update">'+
