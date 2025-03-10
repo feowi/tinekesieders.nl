@@ -347,8 +347,8 @@ AddLanguage('NL','dutch',{
 	"%1 has started!": "%1 is begonnen!",
 	"%1 is over.": "%1 is voorbij.",
 	"%1's bakery": "De bakkerij van %1",
-	"Name your bakery": "Geef je bakkerij een naam",
-	"What should your bakery's name be?": "Hoe gaat je bakkerij heten?",
+	"Name your bakery": "Geef je kut bakkerij een naam",
+	"What should your bakery's name be?": "Hoe gaat je kut bakkerij heten?",
 	"bakery random name, 1st half": [
 		"Tineke",
 		"Rogier",
