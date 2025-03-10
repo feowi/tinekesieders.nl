@@ -371,7 +371,7 @@ AddLanguage('NL','dutch',{
 		"Marrokaan",
 		"Hoer",
 		"Gabber",
-		"De Dildo Zuiger",
+		"De Lul Zuiger",
 		"De Dildo Berijder",
 		"De Sexliefhebber",
 
