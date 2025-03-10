@@ -358,6 +358,8 @@ AddLanguage('NL','dutch',{
 		"Neger",
 		"Banaan",
 		"Kanker",
+		"Zwangere",
+		'Imgrid',
 
 	],
 	"bakery random name, 2nd half": [
@@ -367,6 +369,12 @@ AddLanguage('NL','dutch',{
 		"Gilf",
 		"Turk",
 		"Marrokaan",
+		"Hoer",
+		"Gabber",
+		"De Dildo Zuiger",
+		"De Dildo Berijder",
+		"De Sexliefhebber",
+
 
 	],
 	"%1, age %2": "%1, leeftijd %2",

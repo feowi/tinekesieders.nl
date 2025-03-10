@@ -1949,7 +1949,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Pussy_Destroyer24','Obama','Trump','Putin','Michel Eradus','Nina Eradus','Richard Eradus','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno',"Seksclub De Paarse Neger Medewerker",'Kleine worm van Jan','Vader heeft mij geslagen','241 Landen','Nigeria','Niger','Kaasfabriek','Sharon Rundervoort','henk','Ludwig Naberman','Henk-Jan De 45ste'];
+		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Pussy_Destroyer24','Obama','Trump','Putin','Michel Eradus','Nina Eradus','Richard Eradus','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno',"Seksclub De Paarse Neger Medewerker",'Kleine worm van Jan','Vader heeft mij geslagen','241 Landen','Nigeria','Niger','Kaasfabriek','Sharon Rundervoort','henk','Ludwig Naberman','Henk-Jan De 45ste',''];
 		Game.customGrandmaNames=[];
 		Game.heralds=0;
 		
