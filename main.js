@@ -1343,8 +1343,8 @@ Game.Launch=function()
 	'<div class="listing">&bull; Saysopensesame werkt nooit meer, Misschien wel, Misschien niet.</div>'+
 
 	'</div><div class="subsection update">'+
-	'<div class="title">04/03/2025 - De Betere tinekesieders.nl Fixes/div>'+
-	'<div class="listing">&bull; Meer oma namen.</div>'+
+	'<div class="title">04/03/2025 - De Betere tinekesieders.nl Fixes</div>'+
+	'<div class="listing">&bull; Nieuwe oma namen toegevoegd.</div>'+
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">03/03/2025 - De Betere tinekesieders.nl Update</div>'+
