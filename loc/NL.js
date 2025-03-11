@@ -42,7 +42,7 @@ AddLanguage('NL','dutch',{
 	"Delete all": "Alles wissen",
 	"Back": "Terug",
 	"Confirm": "Bevestigen",
-	"All done!": "Klaar!",
+	"All done!": "Helemaal Klaar!",
 	"Load": "Laden",
 	"Save": "Opslaan",
 	"Quit": "Afsluiten",
