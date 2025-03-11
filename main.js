@@ -1336,6 +1336,11 @@ Game.Launch=function()
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
 
+    '</div><div class="subsection update">'+
+	'<div class="title">11/03/2025 - Kleine patchnotes 2.0</div>'+
+	'<div class="listing">&bull; Teksten zijn veranderd. Merk je denk ik niks van.</div>'+
+
+
 	'</div><div class="subsection update">'+
 	'<div class="title">10/03/2025 - Kleine patchnotes ofzo</div>'+
 	'<div class="listing">&bull; Nieuwe bakkerij namen.</div>'+
