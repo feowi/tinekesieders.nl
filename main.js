@@ -1337,13 +1337,18 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
     
 	'</div><div class="subsection update">'+
-	'<div class="title">11/03/2025 - Nieuwe Mail Adres</div>'+
+	'<div class="title">20/03/2025 - Nieuwe Mail Adres + meer</div>'+
 	'<div class="listing">&bull; We hebben nu een officiele mail adres die jij zelf kan mailen als je een idee hebt, Hij staat boven deze update.</div>'+
+	'<div class="listing">&bull; Website deed kut voor 7 minuten ofzo maar is ook gefixed.</div>'+
+	'<div class="listing">&bull; Cursor + Geld icoon zijn allebij veranderd.</div>'+
+	'<div class="listing">&bull; Sommige upgrade namen zijn anders, Merk je toch niks van</div>'+
+	'<div class="listing">&bull; Als je dit ziet geef me ideeën a.u.b 🙏(Ik zou me best proberen met alle ideeën)</div>'+
 
 
     '</div><div class="subsection update">'+
 	'<div class="title">11/03/2025 - Kleine patchnotes 2.0</div>'+
-	'<div class="listing">&bull; Teksten zijn veranderd. Merk je denk ik niks van.</div>'+
+	'<div class="listing">&bull; Teksten zijn veranderd. Zie je toch niet</div>'+
+	'<div class="listing">&bull; Geheime achtergrond toegevoegd..</div>'+
 
 
 	'</div><div class="subsection update">'+
@@ -1364,8 +1369,8 @@ Game.Launch=function()
 	'<div class="listing">&bull; Bijna elk achtergrond heeft haar hoofd.</div>'+
 	'<div class="listing">&bull; saysopensesame werkt niet meer 😛</div>'+
 	'<div class="listing">&bull; Golden cookie is haar hoofd in de vorm van een kipnugget, Dat was perongeluk.</div>'+
-	'<div class="listing">&bull; ROGIER ERADUS DE SNACKBAR MAN ZIT ER IN!!!!</div>'+
-	'<div class="listing">&bull; Oh ja ook een dildo + Easytoys..</div>'+
+	'<div class="listing">&bull; ROGIER ERADUS ZIT ER IN!!!!</div>'+
+	'<div class="listing">&bull; Oh ja ook een dildo + Easytoys natuurlijk..</div>'+
 	'<div class="listing">&bull; Een upgrade heeft een andere naam, Succes met hem zoeken</div>'+
 	'<div class="listing">&bull; Koekjes heten nu Tineke Koekjes(werkt half)</div>'+
 	'<div class="listing">&bull; Koekjes achter Tinekes Goddelijke kop zitten nu ook meer Tinekes en Rogiers</div>'+
