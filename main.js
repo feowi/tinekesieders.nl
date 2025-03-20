@@ -1334,7 +1334,12 @@ Game.Launch=function()
 	'</div><div class="subsection update">'+
 	'<div class="title">&bull; BELANGRIJK!!</div>'+
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
-	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar tsiederswebsite@gmail.com</div>'+
+	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
+    
+	'</div><div class="subsection update">'+
+	'<div class="title">11/03/2025 - Nieuwe Mail Adres</div>'+
+	'<div class="listing">&bull; We hebben nu een officiele mail adres die jij zelf kan mailen als je een idee hebt, Hij staat boven deze update.</div>'+
+
 
     '</div><div class="subsection update">'+
 	'<div class="title">11/03/2025 - Kleine patchnotes 2.0</div>'+
