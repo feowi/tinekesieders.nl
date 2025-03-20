@@ -303,9 +303,6 @@ var FindLocStringByPart=function(match)
 }
 
 var Langs={
-	'EN':{file:'EN',nameEN:'English',name:'English',changeLanguage:'Language',icon:0,w:1,isEN:true},
-	'FR':{file:'FR',nameEN:'French',name:'Fran&ccedil;ais',changeLanguage:'Langue',icon:0,w:1},
-	'DE':{file:'DE',nameEN:'German',name:'Deutsch',changeLanguage:'Sprache',icon:0,w:1},
 	'NL':{file:'NL',nameEN:'Dutch',name:'Kies Deze!! (Voor alle accurate namen.)',changeLanguage:'Taal',icon:0,w:1},
 
 };
@@ -445,7 +442,7 @@ var AddLanguage=function(id,name,json,mod)
 	if (id==locId && !mod) return false;//don't load twice
 	if (!Langs[id]) return false;
 	locId=id;
-	if (Langs[locId].isEN) EN=true; else EN=false;
+	if (Langs[locId].isNL) NL=true; else NL=false;
 	locName=Langs[id].nameEN;//name
 	
 	if (mod)
