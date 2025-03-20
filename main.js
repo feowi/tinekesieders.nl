@@ -442,7 +442,7 @@ var AddLanguage=function(id,name,json,mod)
 	if (id==locId && !mod) return false;//don't load twice
 	if (!Langs[id]) return false;
 	locId=id;
-	if (Langs[locId].isNL) NL=true; else NL=false;
+	if (Langs[locId].isEN) EN=true; else EN=false;
 	locName=Langs[id].nameEN;//name
 	
 	if (mod)
