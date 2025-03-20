@@ -1337,7 +1337,7 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
     
 	'</div><div class="subsection update">'+
-	'<div class="title">11/03/2025 - Nieuwe Mail Adres</div>'+
+	'<div class="title">20/03/2025 - Nieuwe Mail Adres</div>'+
 	'<div class="listing">&bull; We hebben nu een officiele mail adres die jij zelf kan mailen als je een idee hebt, Hij staat boven deze update.</div>'+
 
 
