@@ -27,7 +27,25 @@
 <!-- end code -->
 <!-- /external -->
 
-<title>Cookie Clicker</title>
+<h1 id="changingText">Tineke Sieders</h1>
+    
+<script>
+	const texts = [
+		"Tineke Milf",
+		"Rogier is kaal",
+		"Jan Erasmus",
+		"Bakvet"
+	];
+	
+	let index = 0;
+	
+	function changeText() {
+		index = (index + 1) % texts.length;
+		document.getElementById("changingText").textContent = texts[index];
+	}
+	
+	setInterval(changeText, 3000);
+</script>
 <!--
 Code and graphics copyright Orteil, 2013-2023
 Feel free to alter this code to your liking, but please do not re-host it, do not profit from it and do not present it as your own.
