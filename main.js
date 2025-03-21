@@ -1336,6 +1336,12 @@ Game.Launch=function()
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
     
+
+	'</div><div class="subsection update">'+
+	'<div class="title">21/03/2025 - Kleine patchnotes 3.0</div>'+
+	'<div class="listing">&bull; Tekst bovenaan zegt nu "Tineke Klikker" inplaats van Cookie Clicker</div>'+
+	'<div class="listing">&bull; Google Analytics + Google Adsense support. (Betekent dat ik reclame erop kan doen en zien hoeveel mensen op de website zitten)</div>'+
+
 	'</div><div class="subsection update">'+
 	'<div class="title">20/03/2025 - Nieuwe Mail Adres + meer</div>'+
 	'<div class="listing">&bull; We hebben nu een officiele mail adres die jij zelf kan mailen als je een idee hebt, Hij staat boven deze update.</div>'+
