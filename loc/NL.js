@@ -12,8 +12,8 @@ AddLanguage('NL','dutch',{
 	"golden cookie": "Gouden Tineke Koekje",
 	"grandmapocalypse": "Zombie Tineke Milf",
 	"%1 cookie": [
-		"%1 koekje",
-		"%1 koekjes"
+		"%1 Tineke Koekje",
+		"%1 Tineke Koekjes"
 	],
 	"%1 sugar lump": [
 		"%1 suikerkontje",
