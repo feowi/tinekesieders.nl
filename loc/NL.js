@@ -361,6 +361,11 @@ AddLanguage('NL','dutch',{
 		"Zwangere",
 		'Imgrid',
 		'Verkrachte',
+		'Keano',
+		'kut',
+		'De lulzuiger',
+		'Kutlikker',
+		
 
 	],
 	"bakery random name, 2nd half": [
