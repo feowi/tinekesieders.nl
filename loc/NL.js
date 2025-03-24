@@ -24,8 +24,8 @@ AddLanguage('NL','dutch',{
 		"%1 hemelse stukjes"
 	],
 	"%1 golden cookie": [
-		"%1 gouden tineke koekje",
-		"%1 gouden tineke koekjes"
+		"%1 Gouden Tineke Koekje",
+		"%1 Gouden Tineke Koekjes"
 	],
 	"%1 building": [
 		"%1 gebouw",
