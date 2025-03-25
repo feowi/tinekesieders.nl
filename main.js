@@ -189,7 +189,7 @@ function formatEveryThirdPower(notations)
 
 function rawFormatter(val){return Math.round(val*1000)/1000;}
 
-var formatLong=[' thousand',' million',' billion',' trillion',' quadrillion',' quintillion',' sextillion',' septillion',' octillion',' nonillion'];
+var formatLong=[' duizend',' miljoen',' biljoen',' triljoen',' quadrillion',' quintillion',' sextillion',' septillion',' octillion',' nonillion'];
 var prefixes=['','un','duo','tre','quattuor','quin','sex','septen','octo','novem'];
 var suffixes=['decillion','vigintillion','trigintillion','quadragintillion','quinquagintillion','sexagintillion','septuagintillion','octogintillion','nonagintillion'];
 for (var i in suffixes)
