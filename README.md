@@ -22,3 +22,6 @@ https://mf3.nl
 
 "breadytoasted" heeft:
 https://tinekesieders.nl
+
+
+<img src="img/workerGrandma.png" width="128">
