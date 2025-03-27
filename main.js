@@ -15461,7 +15461,7 @@ Game.Launch=function()
 		}
 		
 		Game.debugTimersOn=0;
-		Game.sesame=0;
+		Game.sesame=1;
 		Game.OpenSesame=function(on)
 		{
 			var str='';
@@ -15531,7 +15531,7 @@ Game.Launch=function()
 			}
 			
 			l('debug').style.display='block';
-			Game.sesame=0;
+			Game.sesame=1;
 			Game.Achievements['Cheated cookies taste awful'].won=1;
 		}
 		
