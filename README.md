@@ -10,3 +10,15 @@ https://tinekesieders.nl
 ### Waarom hebben jullie dit gemaakt?
 
 Verveling. Vonden het leuk om de oma van een klasgenoot te pesten, Hij geeft ons soms nog een idee voor het spel, niet best.
+
+### Hebben jullie nog meer projecten?
+
+Ja, "Jhhzwiep" Heeft er meer, "breadytoasted" heeft er nu nog maar 1.
+
+"Jhhzwiep" heeft:
+https://hallo.ict.wietklapper.nl
+https://frankdevisser.nl
+https://mf3.nl
+
+"breadytoasted" heeft:
+https://tinekesieders.nl

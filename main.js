@@ -1336,7 +1336,11 @@ Game.Launch=function()
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
     
-'</div><div class="subsection update">'+
+    '</div><div class="subsection update">'+
+	'<div class="title">26/03/2025 - Kleine patchnotes 5.0</div>'+
+	'<div class="listing">&bull; Paar upgrade plaatjes zijn veranderd.</div>'+
+
+    '</div><div class="subsection update">'+
 	'<div class="title">25/03/2025 - Kleine patchnotes 4.0</div>'+
 	'<div class="listing">&bull; Meer upgrades en achievements hebben Tineke in de naam</div>'+
 
