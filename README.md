@@ -2,7 +2,8 @@
 
 <img src="img/perfectCookie.png" width="128">
 
-De echte en originele game is hier: http://orteil.dashnet.org/cookieclicker/ (Deze game is volledig door Orteil (http://orteil.dashnet.org) gemaakt.
+De echte en originele game is hier: http://orteil.dashnet.org/cookieclicker/ <br />
+(Deze game is volledig door Orteil (http://orteil.dashnet.org) gemaakt. <br />
 
 Deze gereskinde versie is gewoon voor de lol en door verveling hebben we een domain gekocht.
 https://tinekesieders.nl <br />
