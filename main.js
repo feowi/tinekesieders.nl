@@ -1756,7 +1756,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (!App && name.indexOf('milf',name.length-('milf').length)>0 && !Game.sesame) Game.OpenSesame();
+			if (!App && name.indexOf('!',name.length-('!').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
@@ -15462,7 +15462,7 @@ Game.Launch=function()
 		
 		Game.debugTimersOn=0;
 		Game.sesame=0;
-		Game.OpenSesame=function(off)
+		Game.OpenSesame=function(on)
 		{
 			var str='';
 			str+='<div class="icon" style="position:absolute;left:-9px;top:-6px;background-position:'+(-10*48)+'px '+(-6*48)+'px;"></div>';
