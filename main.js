@@ -1756,7 +1756,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (!App && name.indexOf('test',name.length-('test').length)>0 && !Game.sesame) Game.OpenSesame();
+			if (!App && name.indexOf('milfneuker',name.length-('milfneuker').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
@@ -15461,7 +15461,7 @@ Game.Launch=function()
 		}
 		
 		Game.debugTimersOn=0;
-		Game.sesame=1;
+		Game.sesame=0;
 		Game.OpenSesame=function(on)
 		{
 			var str='';
@@ -15531,7 +15531,7 @@ Game.Launch=function()
 			}
 			
 			l('debug').style.display='block';
-			Game.sesame=1;
+			Game.sesame=0;
 			Game.Achievements['Cheated cookies taste awful'].won=1;
 		}
 		
