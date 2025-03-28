@@ -1337,6 +1337,10 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
     
     '</div><div class="subsection update">'+
+	'<div class="title">28/03/2025 - 21/04/2025 - Stoppen met updates.</div>'+
+	'<div class="listing">&bull; i.v.m stage stopt tinekesieders.nl met updates, Dit is niet tijdelijk. In de vakantie komt een grote update.</div>'+
+
+    '</div><div class="subsection update">'+
 	'<div class="title">26/03/2025 - Kleine patchnotes 5.0</div>'+
 	'<div class="listing">&bull; Paar upgrade plaatjes zijn veranderd.</div>'+
 
