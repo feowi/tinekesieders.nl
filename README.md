@@ -14,7 +14,7 @@ Verveling. Vonden het leuk om de oma van een klasgenoot te pesten, Hij geeft ons
 
 ### Hebben jullie nog meer projecten?
 
-Ja, "Jhhzwiep" Heeft er meer, "breadytoasted" heeft er nu nog maar 1.
+Ja, "Jhhzwiep" Heeft er meer, "breadytoasted" heeft er nu nog maar 2.
 
 "Jhhzwiep" heeft: <br />
 https://hallo.ict.wietklapper.nl <br />
