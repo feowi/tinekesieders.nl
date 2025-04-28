@@ -25,7 +25,7 @@ https://quadrant.cloud <br />
 "breadytoasted" heeft: <br />
 https://tinekesieders.nl <br />
 https://x3z.nl <br />
-https:/bready.lol <br />
+https://bready.lol <br />
 https://gothbitch.es <br />
 
 
