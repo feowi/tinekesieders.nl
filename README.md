@@ -17,13 +17,16 @@ Verveling. Vonden het leuk om de oma van een klasgenoot te pesten, Hij geeft ons
 Ja, "Jhhzwiep" Heeft er meer, "breadytoasted" heeft er nu nog maar 2.
 
 "Jhhzwiep" heeft: <br />
-https://hallo.ict.wietklapper.nl <br />
+https://wietklapper.nl <br />
 https://frankdevisser.nl <br />
 https://mf3.nl <br />
+https://quadrant.cloud <br />
 
 "breadytoasted" heeft: <br />
 https://tinekesieders.nl <br />
 https://x3z.nl <br />
+https:/bready.lol <br />
+https://gothbitch.es <br />
 
 
 <img src="img/workerGrandma.png" width="128">
