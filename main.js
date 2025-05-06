@@ -1335,12 +1335,51 @@ Game.Launch=function()
 	'<div class="title">&bull; BELANGRIJK!!</div>'+
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
-    
-    '</div><div class="subsection update">'+
-	'<div class="title">28/03/2025 - 21/04/2025 - Stoppen met updates.</div>'+
-	'<div class="listing">&bull; i.v.m stage stopt tinekesieders.nl met updates, Dit is niet tijdelijk. Na de vakantie komt een grote update, groter dan ooit.</div>'+
+	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
+      
     '</div><div class="subsection update">'+
+	'<div class="title">06/05/2025 - GROTE UPDATE!!! (Alle updates staan in volgorde)</div>'+
+	'<div class="listing">&bull; Jan Eradus & Banaan Joran toevegoegd, Ideeën? info@tinekesieders.nl</div>'+
+	'<div class="listing">&bull; Nieuwe namen voor omas.</div>'+
+	'<div class="listing">&bull; Op de koekje klikken krijg je nu tinekes, nog niet allemaal. </div>'+
+	'<div class="listing">&bull; Meer custom achievements namen.</div>'+
+	'<div class="listing">&bull; 2x Nieuwe Gebouwen.</div>'+
+	'<div class="listing">&bull; 3x Nieuwe achtergrond!!</div>'+
+	'<div class="listing">&bull; Achtergrond van Jan Eradus & Banaan Joran zijn veranderd naar de goeie.</div>'+
+	'<div class="listing">&bull; Sommige koekjes bij Stats & Upgrades hebben een duif, Henry de duif.</div>'+
+    '<div class="listing">&bull; Een paar upgrades hebben een andere naam of een plaatje.</div>'+
+	'<div class="listing">&bull; Achtergronden in het spel zijn anders.</div>'+
+	'<div class="listing">&bull; De icoontjes van de achtergronden zijn net als de achtergrond.</div>'+
+	'<div class="listing">&bull; 20x Upgrade namen zijn anders.</div>'+
+	'<div class="listing">&bull; Heel veel koekjes zijn veranderd.</div>'+
+	'<div class="listing">&bull; Nieuwe achtergrond van Tineke Sieders die op de terminator lijkt.</div>'+
+	'<div class="listing">&bull; Bijna heel de familie van Sieders zit in de game</div>'+
+	'<div class="listing">&bull; Nieuwe achtergrond, Tineke die niet Engels kan in een facebook comment.</div>'+
+	'<div class="listing">&bull; Als je op Tineke klikt, komen er gezichten van Tineke. Nog niet alle zijn tineke maar veel wel.</div>'+
+	'<div class="listing">&bull; Tijd van de eerste 2 updates erbij gezet, heb ze weer gevonden.</div>'+
+	'<div class="listing">&bull; Een nieuwe achtergrond van Tineke Sieders met de gang.</div>'+
+	'<div class="listing">&bull; Paar koekjes zijn veranderd.</div>'+
+	'<div class="listing">&bull; 3 Achtergrond namen zijn veranderd naar een meer accurate naam.</div>'+
+	'<div class="listing">&bull; Nieuwe domains, Dus meer websites van Tineke Sieders Company.</div>'+
+	'<div class="listing">&bull; Linksboven in kan je op Tineke Sieders Company klikken voor alle domains, Of bij updates helemaal boven.</div>'+
+	'<div class="listing">&bull; Er zijn nieuwe links toegevoegd helemaal boven aan de site.</div>'+
+	
+	'</div><div class="subsection update">'+
+	'<div class="title">06/05/2025 - GROTE UPDATE!!! (BUGFIXES)</div>'+
+	'<div class="listing">&bull; Saysopensesame werkt half..</div>'+
+	'<div class="listing">&bull; Veel icoontjes waren weg, Allemaal weer gefixed.</div>'+
+	'<div class="listing">&bull; Game was kapot toen ik een naam veranderde... nu niet meer!!</div>'+
+
+	'</div><div class="subsection update">'+
+	'<div class="title">28/03/2025 - 21/04/2025 - Stoppen met updates.</div>'+
+	'<div class="listing">&bull; i.v.m stage stopt tinekesieders.nl met updates, Dit is niet tijdelijk. In de vakantie komt een grote update.</div>'+
+        
+    '</div><div class="subsection update">'+
+	'<div class="title">10/04/2025 - Mail werkt weer.</div>'+
+	'<div class="listing">&bull; Mail was voor een poos kapot, nu weet gefixed.</div>'+
+    
+	'</div><div class="subsection update">'+
 	'<div class="title">26/03/2025 - Kleine patchnotes 5.0</div>'+
 	'<div class="listing">&bull; Paar upgrade plaatjes zijn veranderd.</div>'+
 
@@ -1394,14 +1433,14 @@ Game.Launch=function()
 	
 	
 	'</div><div class="subsection update">'+
-	'<div class="title">28/02/2025 - tinekesieders.nl Cookie Clicker Update</div>'+
+	'<div class="title">27/02/2025 (Tijd: 17:41) - tinekesieders.nl Cookie Clicker Update</div>'+
 	'<div class="listing">&bull; De eerste Tineke Klikker Update!</div>'+
 	'<div class="listing">&bull; Cookie is haar hoofd.</div>'+
 	'<div class="listing">&bull; Nieuwe plaatjes aan de zijkant.</div>'+
 	'<div class="listing">&bull; Tineke Sieders in het lingerie.</div>'+
 		
 	'</div><div class="subsection update">'+
-	'<div class="title">26/02/2025 - tinekesieders.nl linkte naar pornhub update...</div>'+
+	'<div class="title">27/02/2025 (Tijd: 00:17) - tinekesieders.nl linkte naar pornhub update...</div>'+
 	'<div class="listing">&bull; Foto van Tineke</div>'+
 	'<div class="listing">&bull; Klik je erop ging je naar pornhub</div>'+
 	'<div class="listing">&bull; Mocht niet van Jan</div>'+
@@ -1988,7 +2027,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Pussy_Destroyer24','Obama','Trump','Putin','Michel Eradus','Nina Eradus','Richard Eradus','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno',"Seksclub De Paarse Neger Medewerker",'Kleine worm van Jan','Vader heeft mij geslagen','241 Landen','Nigeria','Niger','Kaasfabriek','Sharon Rundervoort','henk','Ludwig Naberman','Henk-Jan De 45ste','Sexy Sieders', 'Keano van der weide'];
+		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Dana Brantley-Sieders','Elly Sakko-Sieders','Renee Sieders','Jody Prak (Sieders)','Ramona Sieders','Jantina De Jonge-Sieders','Michel Eradus','Nina Eradus','Richard Eradus','Gerry Sieders','Obama','Trump','Putin','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno','Kleine worm van Jan','Papa Weg','Nigeria','Niger','Kaasfabriek','henk','Henk-Jan De 45ste','Sexy Sieders', 'Keano van der weide'];
 		Game.customGrandmaNames=[];
 		Game.heralds=0;
 		
@@ -2041,13 +2080,13 @@ Game.Launch=function()
 				Game.showLangSelection();
 			});
 			
-			Game.attachTooltip(l('topbarOrteil'),'<div style="padding:8px;width:250px;text-align:center;">Tineke Website.</div>'+tinyIcon([17,5],'display:block;margin:-12px auto;'),'this');
-			Game.attachTooltip(l('topbarDashnet'),'<div style="padding:8px;width:250px;text-align:center;">Dit doet niks!</div>','this');
-			Game.attachTooltip(l('topbarTwitter'),'<div style="padding:8px;width:250px;text-align:center;">Frankdevisser.nl</div>','this');
-			Game.attachTooltip(l('topbarTumblr'),'<div style="padding:8px;width:250px;text-align:center;">lijdt gewoon naar tumblr, Doet niks</div>','this');
-			Game.attachTooltip(l('topbarDiscord'),'<div style="padding:8px;width:250px;text-align:center;">Doet niks</div>','this');
+			Game.attachTooltip(l('topbarOrteil'),'<div style="padding:8px;width:250px;text-align:center;">Tineke Website.</div>','this');
+			Game.attachTooltip(l('topbarDashnet'),'<div style="padding:8px;width:250px;text-align:center;">Alles van Tinekesieders.nl</div>','this');
+			Game.attachTooltip(l('topbarTwitter'),'<div style="padding:8px;width:250px;text-align:center;">Frankdevisser.nl (Minesweeper)</div>','this');
+			Game.attachTooltip(l('topbarTumblr'),'<div style="padding:8px;width:250px;text-align:center;">Wietklapper.nl (Wietklikker)</div>','this');
+			Game.attachTooltip(l('topbarDiscord'),'<div style="padding:8px;width:250px;text-align:center;">Wat een professioneel!</div>','this');
 			Game.attachTooltip(l('topbarPatreon'),'<div style="padding:8px;width:250px;text-align:center;">Betaal aan tinekesieders.nl zodat wij langer kunnen blijven</div>','this');
-			Game.attachTooltip(l('topbarMerch'),'<div style="padding:8px;width:250px;text-align:center;">Doet niks</div>','this');
+			Game.attachTooltip(l('topbarMerch'),'<div style="padding:8px;width:250px;text-align:center;">Soort van twitter maar leuker</div>','this');
 			Game.attachTooltip(l('topbarMobileCC'),'<div style="padding:8px;width:250px;text-align:center;">MILF</div>','this');
 			Game.attachTooltip(l('topbarSteamCC'),'<div style="padding:8px;width:250px;text-align:center;">Tineke is een milf</div>','this');
 			Game.attachTooltip(l('topbarRandomgen'),'<div style="padding:8px;width:250px;text-align:center;">Hoi Jan Eradus.</div>','this');
@@ -10432,23 +10471,23 @@ Game.Launch=function()
 			{pic:'bgBlue',name:'Blue',icon:[21,21]},
 			{pic:'bgRed',name:'Red',icon:[22,21]},
 			{pic:'bgWhite',name:'White',icon:[23,21]},
-			{pic:'bgBlack',name:'Black',icon:[24,21]},
+			{pic:'bgBlack',name:'Rogier van Minecraft',icon:[24,21]},
 			{pic:'bgGold',name:'Gold',icon:[25,21]},
-			{pic:'grandmas1',name:'Grandmas',icon:[26,21]},
-			{pic:'grandmas2',name:'Displeased grandmas',icon:[27,21]},
-			{pic:'grandmas3',name:'Angered grandmas',icon:[28,21]},
+			{pic:'grandmas1',name:'Tinekes',icon:[26,21]},
+			{pic:'grandmas2',name:'Boze Tineke',icon:[27,21]},
+			{pic:'grandmas3',name:'Veel bozere Tineke',icon:[28,21]},
 			{pic:'bgMoney',name:'Money',icon:[29,21]},
 			{pic:'bgPurple',name:'Purple',icon:[21,22],order:1.1},
 			{pic:'bgPink',name:'Pink',icon:[24,22],order:2.1},
-			{pic:'bgMint',name:'Mint',icon:[22,22],order:2.2},
-			{pic:'bgSilver',name:'Silver',icon:[25,22],order:4.9},
+			{pic:'bgMint',name:'Tineke met de gang',icon:[22,22],order:2.2},
+			{pic:'bgSilver',name:'Tineke kan geen Engels',icon:[25,22],order:4.9},
 			{pic:'bgBW',name:'Black & White',icon:[23,22],order:4.1},
 			{pic:'bgSpectrum',name:'Spectrum',icon:[28,22],order:4.2},
-			{pic:'bgCandy',name:'Candy',icon:[26,22]},
+			{pic:'bgCandy',name:'Duif spuit op vrouw',icon:[26,22]},
 			{pic:'bgYellowBlue',name:'Biscuit store',icon:[27,22]},
-			{pic:'bgChoco',name:'Chocolate',icon:[30,21]},
-			{pic:'bgChocoDark',name:'Dark Chocolate',icon:[31,21]},
-			{pic:'bgPaint',name:'Painter',icon:[24,34]},
+			{pic:'bgChoco',name:'Duif selfie met wijf ofzo',icon:[30,21]},
+			{pic:'bgChocoDark',name:'Tineke lijkt op de terminator',icon:[31,21]},
+			{pic:'bgPaint',name:'Jan Eradus daggoe',icon:[24,34]},
 			{pic:'bgSnowy',name:'Snow',icon:[30,22]},
 			{pic:'bgSky',name:'Sky',icon:[29,22]},
 			{pic:'bgStars',name:'Night',icon:[31,22]},
