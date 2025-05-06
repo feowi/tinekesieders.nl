@@ -1334,7 +1334,7 @@ Game.Launch=function()
 	'</div><div class="subsection update">'+
 	'<div class="title">&bull; BELANGRIJK!!</div>'+
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
-	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar info@tinekesieders.nl</div>'+
+	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
       
@@ -1371,6 +1371,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; Saysopensesame werkt half..</div>'+
 	'<div class="listing">&bull; Veel icoontjes waren weg, Allemaal weer gefixed.</div>'+
 	'<div class="listing">&bull; Game was kapot toen ik een naam veranderde... nu niet meer!!</div>'+
+	'<div class="listing">&bull; Website was of is nog kapot door de switch van host..</div>'+
 
 	'</div><div class="subsection update">'+
 	'<div class="title">28/03/2025 - 21/04/2025 - Stoppen met updates.</div>'+
