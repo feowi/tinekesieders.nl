@@ -1600,8 +1600,8 @@ Game.Launch=function()
 		}
 		Game.seed=Game.makeSeed();//each run has its own seed, used for deterministic random stuff
 		
-		Game.volume=75;//sound volume
-		Game.volumeMusic=50;//music volume
+		Game.volume=50;//sound volume
+		Game.volumeMusic=25;//music volume
 		
 		Game.elderWrath=0;
 		Game.elderWrathOld=0;
