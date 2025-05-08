@@ -1337,8 +1337,9 @@ Game.Launch=function()
 
       
     '</div><div class="subsection update">'+
-	'<div class="title">08/05/2025 - BUG FIX</div>'+
+	'<div class="title">08/05/2025 - BUG FIX!!</div>'+
 	'<div class="listing">&bull; De Javascript bestand (waar dus alle code instaat voor de game) was kapot en niks wou laden. Dit is nu weer gefixed.</div>'+
+	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer spellen, TIneke Sieders zegt dat je naar <a href="https://dans.tinekesieders.nl" target="_blank">https://dans.tinekesieders.nl</a> moet gaan!!.</div>'+
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">06/05/2025 - GROTE UPDATE!!!! (Alle updates staan in volgorde)</div>'+
