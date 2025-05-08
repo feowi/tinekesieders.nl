@@ -1,4 +1,4 @@
-﻿﻿/*
+﻿/*
 All this code is copyright Orteil, 2013-2023.
 	-with some help, advice and fixes by Nicholas Laux, Debugbro, Opti, the folks at Playsaurus, and lots of people on reddit, Discord, and the DashNet forums
 	-also includes a bunch of snippets found on stackoverflow.com and others
@@ -9,6 +9,7 @@ Have a nice trip, and stay safe.
 Spoilers ahead.
 http://orteil.dashnet.org
 */
+
 /*=====================================================================================
 MISC HELPER FUNCTIONS
 =======================================================================================*/
@@ -188,7 +189,7 @@ function formatEveryThirdPower(notations)
 
 function rawFormatter(val){return Math.round(val*1000)/1000;}
 
-var formatLong=[' duizend',' miljoen',' biljoen',' triljoen',' quadrillion',' quintillion',' sextillion',' septillion',' octillion',' nonillion'];
+var formatLong=[' thousand',' million',' billion',' trillion',' quadrillion',' quintillion',' sextillion',' septillion',' octillion',' nonillion'];
 var prefixes=['','un','duo','tre','quattuor','quin','sex','septen','octo','novem'];
 var suffixes=['decillion','vigintillion','trigintillion','quadragintillion','quinquagintillion','sexagintillion','septuagintillion','octogintillion','nonagintillion'];
 for (var i in suffixes)
@@ -305,7 +306,7 @@ var Langs={
 	'EN':{file:'EN',nameEN:'English',name:'English',changeLanguage:'Language',icon:0,w:1,isEN:true},
 	'FR':{file:'FR',nameEN:'French',name:'Fran&ccedil;ais',changeLanguage:'Langue',icon:0,w:1},
 	'DE':{file:'DE',nameEN:'German',name:'Deutsch',changeLanguage:'Sprache',icon:0,w:1},
-	'NL':{file:'NL',nameEN:'Dutch',name:'Kies Deze!! (Voor alle accurate namen.)',changeLanguage:'Taal',icon:0,w:1},
+	'NL':{file:'NL',nameEN:'Dutch',name:'Nederlands',changeLanguage:'Taal',icon:0,w:1},
 	'CS':{file:'CS',nameEN:'Czech',name:'&#x10C;e&#x161;tina',changeLanguage:'Jazyk',icon:0,w:1},
 	'PL':{file:'PL',nameEN:'Polish',name:'Polski',changeLanguage:'J&#281;zyk',icon:0,w:1},
 	'IT':{file:'IT',nameEN:'Italian',name:'Italiano',changeLanguage:'Lingua',icon:0,w:1},
@@ -1306,10 +1307,11 @@ Game.Launch=function()
 	}
 	
 	Game.updateLog=
-	'<div class="selectable">'+
-	'<div class="section">'+loc("TINEKESIEDERS.NL UPDATES")+'</div>'+
-	'<div class="subsection">'+
+    '<div class="selectable">'+
+    '<div class="section">'+loc("TINEKESIEDERS.NL UPDATES")+'</div>'+
+    '<div class="subsection">'+
     '</div><div class="subsection">'
+	'<div class="title">'+loc("Version history")+'</div>';
 	
 	for (var i=0;i<locPatches.length;i++)
 	{
@@ -1324,10 +1326,7 @@ Game.Launch=function()
 		Game.updateLog+=patchText;
 	}
 	
-	
-	
 	Game.updateLog+=
-	
 	'</div><div class="subsection update">'+
 
 	'</div><div class="subsection update">'+
@@ -1696,7 +1695,7 @@ Game.Launch=function()
 			Game.prefs.autoupdate=1;//send an AJAX request to the server every 30 minutes (note : ignored)
 			Game.prefs.milk=1;//display milk
 			Game.prefs.fancy=1;//CSS shadow effects (might be heavy on some browsers)
-			Game.prefs.warn=1;//warn before closing the window
+			Game.prefs.warn=0;//warn before closing the window
 			Game.prefs.cursors=1;//display cursors
 			Game.prefs.focus=1;//make the game refresh less frequently when off-focus
 			Game.prefs.popups=0;//use old-style popups (no longer used)
@@ -1800,7 +1799,7 @@ Game.Launch=function()
 			Game.bakeryNameL.textContent=name;
 			name=Game.bakeryName.toLowerCase();
 			if (name=='orteil') Game.Win('God complex');
-			if (!App && name.indexOf('kut-tineke',name.length-('kut-tineke').length)>0 && !Game.sesame) Game.OpenSesame();
+			if (!App && name.indexOf('kutje',name.length-('kutje').length)>0 && !Game.sesame) Game.OpenSesame();
 			Game.recalculateGains=1;
 		}
 		Game.bakeryNamePrompt=function()
@@ -2034,7 +2033,7 @@ Game.Launch=function()
 		
 		Game.GrabData=function()
 		{
-			if (!App) ajax('/patreon/grab.php',Game.GrabDataResponse);
+			if (!App) ajax('grab.txt',Game.GrabDataResponse);
 			else App.grabData(function(res){
 				Game.heralds=res?(res.playersN||1):1;
 				Game.heralds=Math.max(0,Math.min(100,Math.ceil(Game.heralds/100*100)/100));
@@ -15423,7 +15422,7 @@ Game.Launch=function()
 		Game.killShimmers();
 		
 		//booooo
-		Game.RuinTheFun=function(on)
+		Game.RuinTheFun=function(silent)
 		{
 			Game.popups=0;
 			Game.SetAllUpgrades(1);
@@ -15478,7 +15477,7 @@ Game.Launch=function()
 			Game.recalculateGains=1;
 			Game.popups=1;
 		}
-		Game.GetAllDebugs=function(on)
+		Game.GetAllDebugs=function()
 		{
 			Game.popups=0;
 			for (var i in Game.Upgrades)
@@ -15489,7 +15488,7 @@ Game.Launch=function()
 			Game.recalculateGains=1;
 			Game.popups=1;
 		}
-		Game.MaxSpecials=function(on)
+		Game.MaxSpecials=function()
 		{
 			Game.dragonLevel=Game.dragonLevels.length-1;
 			Game.santaLevel=Game.santaLevels.length-1;
@@ -15506,7 +15505,7 @@ Game.Launch=function()
 		
 		Game.debugTimersOn=0;
 		Game.sesame=0;
-		Game.OpenSesame=function(on)
+		Game.OpenSesame=function()
 		{
 			var str='';
 			str+='<div class="icon" style="position:absolute;left:-9px;top:-6px;background-position:'+(-10*48)+'px '+(-6*48)+'px;"></div>';
@@ -15532,7 +15531,7 @@ Game.Launch=function()
 			str+='<a class="option warning" '+Game.clickStr+'="Game.RuinTheFun(1);">Ruin The Fun</a>';
 			str+='<a class="option warning" '+Game.clickStr+'="Game.SesameReset();">Wipe</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.GetAllDebugs();">All debugs</a>';
-			str+='<a class="option neato" '+Game.clickStr+'="Game.debugTimersOn=!Game.debugTimersOn;Game.OpenSesame();">Timers '+(Game.debugTimersOff?'On':'Off')+'</a><br>';
+			str+='<a class="option neato" '+Game.clickStr+'="Game.debugTimersOn=!Game.debugTimersOn;Game.OpenSesame();">Timers '+(Game.debugTimersOn?'On':'Off')+'</a><br>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.SetAllUpgrades(0);">No upgrades</a>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.SetAllUpgrades(1);">All upgrades</a><br>';
 			str+='<a class="option neato" '+Game.clickStr+'="Game.SetAllAchievs(0);">No achievs</a>';
@@ -15575,7 +15574,7 @@ Game.Launch=function()
 			}
 			
 			l('debug').style.display='block';
-			Game.sesame=0;
+			Game.sesame=1;
 			Game.Achievements['Cheated cookies taste awful'].won=1;
 		}
 		
@@ -15592,7 +15591,7 @@ Game.Launch=function()
 			if (!Game.DebuggingPrestige)
 			{
 				if (Game.loadAscendCalibrator) Game.loadAscendCalibrator();
-				Game.DebuggingPrestige=false;
+				Game.DebuggingPrestige=true;
 				Game.AscendTimer=0;
 				Game.OnAscend=1;
 				Game.removeClass('ascendIntro');
@@ -16449,4 +16448,3 @@ window.onload=function()
 		else loadLangAndLaunch(lang);
 	}
 };
->>>>>>> a8984581f7b02833ff7b0e1f5bcc8fb0cf0d803f
