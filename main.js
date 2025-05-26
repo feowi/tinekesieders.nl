@@ -1335,7 +1335,10 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
-      
+    '</div><div class="subsection update">'+
+	'<div class="title">08/05/2025 - Kleine patchnotes 6.0</div>'+
+	'<div class="listing">&bull; Erfenis veranderd naar Rebirth, Klinkt mooier.</div>'+
+	
     '</div><div class="subsection update">'+
 	'<div class="title">08/05/2025 - BUG FIX!!</div>'+
 	'<div class="listing">&bull; De Javascript bestand (waar dus alle code instaat voor de game) was kapot en niks wou laden. Dit is nu weer gefixed.</div>'+
@@ -2031,7 +2034,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Dana Brantley-Sieders','Elly Sakko-Sieders','Renee Sieders','Jody Prak (Sieders)','Ramona Sieders','Jantina De Jonge-Sieders','Michel Eradus','Nina Eradus','Richard Eradus','Gerry Sieders','Obama','Trump','Putin','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno','Kleine worm van Jan','Papa Weg','Nigeria','Niger','Kaasfabriek','henk','Henk-Jan De 45ste','Sexy Sieders', 'Laveranhof 6', 'Joris Geurtsen', 'Jeremy Koster', 'Spek Klodder Klodder'];
+		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Dana Brantley-Sieders','Elly Sakko-Sieders','Renee Sieders','Jody Prak (Sieders)','Ramona Sieders','Jantina De Jonge-Sieders','Michel Eradus','Nina Eradus','Richard Eradus','Gerry Sieders','Obama','Trump','Putin','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno','Kleine worm van Jan','Papa Weg','Nigeria','Niger','Kaasfabriek','henk','Henk-Jan De 45ste','Sexy Sieders', 'Laveranhof 6', 'Joris Geurtsen', 'Jeremy Koster', 'Spek Klodder Klodder','Jan raakt kinderen aan van 12'];
 		Game.customGrandmaNames=[0];
 		Game.heralds=0;
 		
