@@ -1338,6 +1338,7 @@ Game.Launch=function()
     '</div><div class="subsection update">'+
 	'<div class="title">08/05/2025 - Kleine patchnotes 6.0</div>'+
 	'<div class="listing">&bull; Erfenis veranderd naar Rebirth, Klinkt mooier.</div>'+
+	'<div class="listing">&bull; 3 Nieuwe oma namen</div>'+
 	
     '</div><div class="subsection update">'+
 	'<div class="title">08/05/2025 - BUG FIX!!</div>'+
