@@ -1338,6 +1338,7 @@ Game.Launch=function()
     '</div><div class="subsection update">'+
 	'<div class="title">25/07/2025 - Kleine patchnotes 7.0</div>'+
 	'<div class="listing">&bull; Dood project dit eig, maar een paar afbeeldingen veranderd :D</div>'+
+	'<div class="listing">&bull; Jan Eradus zingt.</div>'+
 
     '</div><div class="subsection update">'+
 	'<div class="title">08/05/2025 - Kleine patchnotes 6.0</div>'+
@@ -1449,7 +1450,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; De eerste Tineke Klikker Update!</div>'+
 	'<div class="listing">&bull; Cookie is haar hoofd.</div>'+
 	'<div class="listing">&bull; Nieuwe plaatjes aan de zijkant.</div>'+
-	'<div class="listing">&bull; Tineke Sieders in het lingerie.</div>'+
+	'<div class="listing">&bull; Tineke Sieders in het lingerie. ik zou raggen 😝</div>'+
 		
 	'</div><div class="subsection update">'+
 	'<div class="title">27/02/2025 (Tijd: 00:17) - tinekesieders.nl linkte naar pornhub update...</div>'+
