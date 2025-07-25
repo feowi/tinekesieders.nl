@@ -1334,6 +1334,10 @@ Game.Launch=function()
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
+    
+    '</div><div class="subsection update">'+
+	'<div class="title">25/07/2025 - Kleine patchnotes 7.0</div>'+
+	'<div class="listing">&bull; Dood project dit eig, maar een paar afbeeldingen veranderd :D</div>'+
 
     '</div><div class="subsection update">'+
 	'<div class="title">08/05/2025 - Kleine patchnotes 6.0</div>'+
