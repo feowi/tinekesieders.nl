@@ -1335,6 +1335,10 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
     
+	'</div><div class="subsection update">'+
+	'<div class="title">26/07/2025 - Kleine patchnotes 7.1 (verveelde me)</div>'+
+	'<div class="listing">&bull; 2 Nieuwe duiven toegevoegd.</div>'+
+
     '</div><div class="subsection update">'+
 	'<div class="title">25/07/2025 - Kleine patchnotes 7.0</div>'+
 	'<div class="listing">&bull; Dood project dit eig, maar een paar afbeeldingen veranderd :D</div>'+
