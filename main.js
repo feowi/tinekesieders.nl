@@ -1334,7 +1334,12 @@ Game.Launch=function()
 	'<div class="listing">&bull; Rechtsboven in moet je op de knop "Naar de betere taal gaan" klikken. Als je dat doet klik dan op "Kies deze!!!", Dit is omdat Cookie Clicker kanker code heeft en bijna niks leuk vindt. </div>'+
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
-    
+
+	'</div><div class="subsection update">'+
+	'<div class="title">10/09/2025 - Kleine patchnotes 7.2</div>'+
+	'<div class="listing">&bull; Een oma naam weg door de Eradus Man hemzelf.</div>'+
+
+	
 	'</div><div class="subsection update">'+
 	'<div class="title">26/07/2025 - Kleine patchnotes 7.1 (verveelde me)</div>'+
 	'<div class="listing">&bull; 2 Nieuwe duiven toegevoegd.</div>'+
@@ -1342,7 +1347,6 @@ Game.Launch=function()
     '</div><div class="subsection update">'+
 	'<div class="title">25/07/2025 - Kleine patchnotes 7.0</div>'+
 	'<div class="listing">&bull; Dood project dit eig, maar een paar afbeeldingen veranderd :D</div>'+
-	'<div class="listing">&bull; Jan Eradus zingt.</div>'+
 
     '</div><div class="subsection update">'+
 	'<div class="title">08/05/2025 - Kleine patchnotes 6.0</div>'+
@@ -2044,7 +2048,7 @@ Game.Launch=function()
 		
 		Game.externalDataLoaded=false;
 		
-		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Dana Brantley-Sieders','Elly Sakko-Sieders','Renee Sieders','Jody Prak (Sieders)','Ramona Sieders','Jantina De Jonge-Sieders','Michel Eradus','Nina Eradus','Richard Eradus','Gerry Sieders','Obama','Trump','Putin','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno','Kleine worm van Jan','Papa Weg','Nigeria','Niger','Kaasfabriek','henk','Henk-Jan De 45ste','Sexy Sieders', 'Laveranhof 6', 'Joris Geurtsen', 'Jeremy Koster', 'Spek Klodder Klodder','Jan raakt kinderen aan van 12'];
+		Game.grandmaNames=['Milfje','Seksslaaf','Tineke Sieders','Jan Eradus','Joran Eradus','Rogier Eradus','Dana Brantley-Sieders','Elly Sakko-Sieders','Renee Sieders','Jody Prak (Sieders)','Ramona Sieders','Jantina De Jonge-Sieders','Michel Eradus','Nina Eradus','Richard Eradus','Gerry Sieders','Obama','Trump','Putin','Xiyang Ling-Ling','Henry De Balhaar','Igor Vladimir Gorbatsjov','Geile Befbever','https://www.facebook.com/tsieders','Geer-truida Lenten','Je moeder heet henk','Je vader heet henk','Easytoys Medewerker','Nikki Tempel','Blauwe 4 kaar van Uno','Kleine worm van Jan','Papa Weg','Nigeria','Niger','Kaasfabriek','henk','Henk-Jan De 45ste','Sexy Sieders', 'Laveranhof 6', 'Joris Geurtsen', 'Jeremy Koster', 'Spek Klodder Klodder'];
 		Game.customGrandmaNames=[0];
 		Game.heralds=0;
 		
