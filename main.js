@@ -1336,6 +1336,10 @@ Game.Launch=function()
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
 	'</div><div class="subsection update">'+
+	'<div class="title">25/09/2025 - Kleine patchnotes 7.3</div>'+
+	'<div class="listing">&bull; 2 Upgrade namen veranderd.</div>'+
+
+	'</div><div class="subsection update">'+
 	'<div class="title">10/09/2025 - Kleine patchnotes 7.2</div>'+
 	'<div class="listing">&bull; Een oma naam weg door de Eradus Man hemzelf.</div>'+
 
