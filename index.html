@@ -323,14 +323,12 @@ onChildAdded(annRef, (snapshot) => {
   const data = snapshot.val();
   if (!data) return;
 
-  // Create popup wrapper
   const popup = document.createElement("div");
   popup.style.display = "flex";
   popup.style.flexDirection = "column";
   popup.style.alignItems = "center";
-  popup.style.gap = "6px";
 
-  // Add message if present
+  // If there’s a message
   if (data.message) {
     const text = document.createElement("div");
     text.innerText = "📢 " + data.message;
@@ -343,17 +341,20 @@ onChildAdded(annRef, (snapshot) => {
     popup.appendChild(text);
   }
 
-  // Add image if present
+  // If there’s an image link
   if (data.image) {
     const img = document.createElement("img");
     img.src = data.image;
-    img.style.maxWidth = "250px";
-    img.style.maxHeight = "200px";
-    img.style.borderRadius = "6px";
+    img.alt = "announcement image";
+    Object.assign(img.style, {
+      maxWidth: "200px",
+      maxHeight: "200px",
+      marginTop: "10px",
+      borderRadius: "8px"
+    });
     popup.appendChild(img);
   }
 
-  // Add animation styles
   Object.assign(popup.style, {
     opacity: 0,
     transform: "translateY(20px)",
@@ -389,6 +390,7 @@ onChildRemoved(annRef, (snapshot) => {
   }
 });
 </script>
+
 
 </body>
 </html>
