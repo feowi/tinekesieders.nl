@@ -10,7 +10,6 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebas
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-analytics.js";
 import { getAuth, signInWithEmailAndPassword, signOut, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-auth.js";
 import { getDatabase, ref, push, onChildAdded, remove } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-database.js";
-import { getStorage, ref as sRef, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-storage.js";
 
 // Firebase Config
 const firebaseConfig = {
@@ -18,7 +17,7 @@ const firebaseConfig = {
   authDomain: "fuckreii.firebaseapp.com",
   databaseURL: "https://fuckreii-default-rtdb.firebaseio.com",
   projectId: "fuckreii",
-  storageBucket: "fuckreii.firebasestorage.app",
+  storageBucket: "fuckreii.appspot.com", // fixed but not used since we do links now
   messagingSenderId: "206715883407",
   appId: "1:206715883407:web:420200082c73c3134d45fa",
   measurementId: "G-C72NKH2MYQ"
@@ -29,7 +28,6 @@ const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
 const auth = getAuth(app);
 const db = getDatabase(app);
-const storage = getStorage(app);
 
 // Map emails to usernames
 const userNames = {
@@ -42,7 +40,8 @@ const loginForm = document.getElementById("login-form");
 const announceForm = document.getElementById("announce-form");
 const statusBox = document.getElementById("status");
 const messagesContainer = document.getElementById("messages-container");
-const fileInput = document.getElementById("image-file");
+const fileInput = document.getElementById("image-file"); // still here, not deleted
+const imageLinkInput = document.getElementById("image-link");
 
 let currentUserName = "";
 onAuthStateChanged(auth, (user) => {
@@ -69,28 +68,23 @@ window.login = async function() {
 // Logout
 window.logout = async function() { await signOut(auth); };
 
-// Post Announcement
+// Post Announcement (now supports pasted image links)
 window.postAnnouncement = async function() {
   const msg = document.getElementById("message").value;
-  const file = fileInput.files[0];
-  if (!msg.trim() && !file) return alert("⚠️ Enter a message or choose an image!");
+  const imgLink = imageLinkInput.value.trim();
 
-  let imageUrl = null;
-  if (file) {
-    const storageRef = sRef(storage, `announcements/${Date.now()}_${file.name}`);
-    await uploadBytes(storageRef, file);
-    imageUrl = await getDownloadURL(storageRef);
-  }
+  if (!msg.trim() && !imgLink) return alert("⚠️ Enter a message or paste an image link!");
 
   try {
     await push(ref(db, "announcements"), {
       message: msg,
-      image: imageUrl,
+      image: imgLink || null,
       user: currentUserName,
       timestamp: Date.now()
     });
     document.getElementById("message").value = "";
-    fileInput.value = "";
+    imageLinkInput.value = "";
+    fileInput.value = ""; // stays but unused
   } catch (error) { alert("Error: " + error.message); }
 };
 
@@ -207,7 +201,8 @@ button:hover { background: #0056b3; }
 
   <div id="announce-form" style="display:none;">
     <textarea id="message" placeholder="Write your announcement..."></textarea>
-    <input type="file" id="image-file" accept="image/*">
+    <input type="file" id="image-file" accept="image/*"> <!-- still exists but unused -->
+    <input type="url" id="image-link" placeholder="Paste image link (optional)">
     <button onclick="postAnnouncement()">Send Announcement</button>
     <button onclick="logout()" style="background:#dc3545; margin-top:5px;">Logout</button>
 
