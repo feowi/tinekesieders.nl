@@ -321,16 +321,40 @@ const popupsMap = {};
 const annRef = ref(db, "announcements");
 onChildAdded(annRef, (snapshot) => {
   const data = snapshot.val();
-  if (!data || !data.message) return;
+  if (!data) return;
 
+  // Create popup wrapper
   const popup = document.createElement("div");
-  popup.innerText = "📢 " + data.message;
-  
+  popup.style.display = "flex";
+  popup.style.flexDirection = "column";
+  popup.style.alignItems = "center";
+  popup.style.gap = "6px";
+
+  // Add message if present
+  if (data.message) {
+    const text = document.createElement("div");
+    text.innerText = "📢 " + data.message;
+    Object.assign(text.style, {
+      color: "#fff",
+      fontSize: "20px",
+      fontFamily: "Arial, sans-serif",
+      textAlign: "center"
+    });
+    popup.appendChild(text);
+  }
+
+  // Add image if present
+  if (data.image) {
+    const img = document.createElement("img");
+    img.src = data.image;
+    img.style.maxWidth = "250px";
+    img.style.maxHeight = "200px";
+    img.style.borderRadius = "6px";
+    popup.appendChild(img);
+  }
+
+  // Add animation styles
   Object.assign(popup.style, {
-    color: "#fff",
-    fontSize: "20px",
-    fontFamily: "Arial, sans-serif",
-    textAlign: "center",
     opacity: 0,
     transform: "translateY(20px)",
     transition: "opacity 0.5s ease, transform 0.5s ease"
@@ -365,7 +389,6 @@ onChildRemoved(annRef, (snapshot) => {
   }
 });
 </script>
-
 
 </body>
 </html>
