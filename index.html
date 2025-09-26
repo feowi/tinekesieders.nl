@@ -328,6 +328,21 @@ onChildAdded(annRef, (snapshot) => {
   popup.style.flexDirection = "column";
   popup.style.alignItems = "center";
 
+  // If there’s an email, extract username
+  if (data.email) {
+    const username = document.createElement("div");
+    username.innerText = data.email.split('@')[0]; // Only show part before @
+    Object.assign(username.style, {
+      color: "#fff",
+      fontWeight: "bold",
+      fontSize: "18px",
+      marginBottom: "5px",
+      fontFamily: "Arial, sans-serif",
+      textAlign: "center"
+    });
+    popup.appendChild(username);
+  }
+
   // If there’s a message
   if (data.message) {
     const text = document.createElement("div");
@@ -390,6 +405,7 @@ onChildRemoved(annRef, (snapshot) => {
   }
 });
 </script>
+
 
 
 </body>
