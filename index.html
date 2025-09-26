@@ -274,5 +274,98 @@ var App=typeof App==='undefined'?0:App;
 
 </div>
 
+<script type="module">
+import { initializeApp } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-app.js";
+import { getDatabase, ref, onChildAdded, onChildRemoved } from "https://www.gstatic.com/firebasejs/12.3.0/firebase-database.js";
+
+// Firebase Config
+const firebaseConfig = {
+  apiKey: "AIzaSyC0jml1JcAoJziIB5iA-Ur7H3XpJdGhU44",
+  authDomain: "fuckreii.firebaseapp.com",
+  databaseURL: "https://fuckreii-default-rtdb.firebaseio.com",
+  projectId: "fuckreii",
+  storageBucket: "fuckreii.firebasestorage.app",
+  messagingSenderId: "206715883407",
+  appId: "1:206715883407:web:420200082c73c3134d45fa",
+  measurementId: "G-C72NKH2MYQ"
+};
+
+// Init Firebase
+const app = initializeApp(firebaseConfig);
+const db = getDatabase(app);
+
+// Create announcement container if not exists
+let container = document.getElementById("announcement-container");
+if (!container) {
+  container = document.createElement("div");
+  container.id = "announcement-container";
+  Object.assign(container.style, {
+    position: "fixed",
+    top: "5%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    display: "flex",
+    flexDirection: "column-reverse",
+    alignItems: "center",
+    gap: "10px",
+    pointerEvents: "none",
+    zIndex: 9999
+  });
+  document.body.appendChild(container);
+}
+
+// Track popups by Firebase key
+const popupsMap = {};
+
+// Listen for new announcements
+const annRef = ref(db, "announcements");
+onChildAdded(annRef, (snapshot) => {
+  const data = snapshot.val();
+  if (!data || !data.message) return;
+
+  const popup = document.createElement("div");
+  popup.innerText = "📢 " + data.message;
+  
+  Object.assign(popup.style, {
+    color: "#fff",
+    fontSize: "20px",
+    fontFamily: "Arial, sans-serif",
+    textAlign: "center",
+    opacity: 0,
+    transform: "translateY(20px)",
+    transition: "opacity 0.5s ease, transform 0.5s ease"
+  });
+
+  container.appendChild(popup);
+  popupsMap[snapshot.key] = popup;
+
+  // Animate in
+  requestAnimationFrame(() => {
+    popup.style.opacity = 1;
+    popup.style.transform = "translateY(0)";
+  });
+
+  // Auto-hide after 4s
+  setTimeout(() => {
+    if (popup.parentNode) {
+      popup.style.opacity = 0;
+      popup.style.transform = "translateY(-20px)";
+      setTimeout(() => popup.remove(), 500);
+      delete popupsMap[snapshot.key];
+    }
+  }, 4000);
+});
+
+// Listen for deleted announcements
+onChildRemoved(annRef, (snapshot) => {
+  const popup = popupsMap[snapshot.key];
+  if (popup && popup.parentNode) {
+    popup.remove();
+    delete popupsMap[snapshot.key];
+  }
+});
+</script>
+
+
 </body>
 </html>
