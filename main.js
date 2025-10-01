@@ -303,8 +303,8 @@ var FindLocStringByPart=function(match)
 }
 
 var Langs={
-	'EN':{file:'EN',nameEN:'English',name:'English',changeLanguage:'Language',icon:0,w:1,isEN:false},
-	'NL':{file:'NL',nameEN:'Dutch',name:'Nederlands',changeLanguage:'Taal',icon:0,w:1},
+	'EN':{file:'EN',nameEN:'English',name:'Kies niet deze, Dit is de verkeerde en kan niet uit de code weggehaald worden..',changeLanguage:'Language',icon:0,w:1,isEN:false},
+	'NL':{file:'NL',nameEN:'Dutch',name:'Nederlands (Deze moet je kiezen voordat je speelt)',changeLanguage:'Taal',icon:0,w:1},
 };
 
 //note : baseline should be the original english text
