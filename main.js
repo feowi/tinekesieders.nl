@@ -303,6 +303,7 @@ var FindLocStringByPart=function(match)
 }
 
 var Langs={
+	'EN':{file:'EN',nameEN:'English',name:'English',changeLanguage:'Language',icon:0,w:1,isEN:false},
 	'NL':{file:'NL',nameEN:'Dutch',name:'Nederlands',changeLanguage:'Taal',icon:0,w:1},
 };
 
