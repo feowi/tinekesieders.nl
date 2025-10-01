@@ -1335,6 +1335,11 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
+    '</div><div class="subsection update">'+
+	'<div class="title">01/10/2025 - Kleine patchnotes 7.35</div>'+
+	'<div class="listing">&bull; NIEUWE AFBEELDING VOOR DE KOEKJE!!.</div>'+
+	'<div class="listing">&bull; Links onder staat nu de echte versie van het spel.</div>'+
+
 	'</div><div class="subsection update">'+
 	'<div class="title">25/09/2025 - Kleine patchnotes 7.3</div>'+
 	'<div class="listing">&bull; 2 Upgrade namen veranderd.</div>'+
@@ -1343,23 +1348,22 @@ Game.Launch=function()
 	'<div class="title">10/09/2025 - Kleine patchnotes 7.2</div>'+
 	'<div class="listing">&bull; Een oma naam weg door de Eradus Man hemzelf.</div>'+
 
-	
 	'</div><div class="subsection update">'+
 	'<div class="title">26/07/2025 - Kleine patchnotes 7.1 (verveelde me)</div>'+
 	'<div class="listing">&bull; 2 Nieuwe duiven toegevoegd.</div>'+
 
     '</div><div class="subsection update">'+
 	'<div class="title">25/07/2025 - Kleine patchnotes 7.0</div>'+
-	'<div class="listing">&bull; Dood project dit eig, maar een paar afbeeldingen veranderd :D</div>'+
+	'<div class="listing">&bull; Dood project dit eig, maar een paar afbeeldingen veranderd.</div>'+
 
     '</div><div class="subsection update">'+
 	'<div class="title">08/05/2025 - Kleine patchnotes 6.0</div>'+
 	'<div class="listing">&bull; Erfenis veranderd naar Rebirth, Klinkt mooier.</div>'+
-	'<div class="listing">&bull; 3 Nieuwe oma namen</div>'+
+	'<div class="listing">&bull; 3 Nieuwe oma namen.</div>'+
 	
     '</div><div class="subsection update">'+
-	'<div class="title">08/05/2025 - BUG FIX!!</div>'+
-	'<div class="listing">&bull; De Javascript bestand (waar dus alle code instaat voor de game) was kapot en niks wou laden. Dit is nu weer gefixed.</div>'+
+	'<div class="title">08/05/2025 - Kleine patchnotes 5.5</div>'+
+	'<div class="listing">&bull; De Javascript bestand, (waar dus alle code instaat voor de game) was kapot en niks wou laden, Dit is nu weer gefixed.</div>'+
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">06/05/2025 - GROTE UPDATE!!!! (Alle updates staan in volgorde)</div>'+
@@ -1398,7 +1402,7 @@ Game.Launch=function()
 
 	'</div><div class="subsection update">'+
 	'<div class="title">28/03/2025 - 21/04/2025 - Stoppen met updates.</div>'+
-	'<div class="listing">&bull; i.v.m stage stopt tinekesieders.nl met updates, Dit is niet tijdelijk. In de vakantie komt een grote update.</div>'+
+	'<div class="listing">&bull; i.v.m stage van school stopt tinekesieders.nl met updates, Dit is niet tijdelijk. In de vakantie komt een grote update.</div>'+
         
     '</div><div class="subsection update">'+
 	'<div class="title">10/04/2025 - Mail werkt weer.</div>'+
@@ -1425,12 +1429,10 @@ Game.Launch=function()
 	'<div class="listing">&bull; Sommige upgrade namen zijn anders, Merk je toch niks van</div>'+
 	'<div class="listing">&bull; Als je dit ziet geef me ideeën a.u.b 🙏(Ik zou me best proberen met alle ideeën)</div>'+
 
-
     '</div><div class="subsection update">'+
 	'<div class="title">11/03/2025 - Kleine patchnotes 2.0</div>'+
 	'<div class="listing">&bull; Teksten zijn veranderd. Zie je toch niet</div>'+
 	'<div class="listing">&bull; Geheime achtergrond toegevoegd..</div>'+
-
 
 	'</div><div class="subsection update">'+
 	'<div class="title">10/03/2025 - Kleine patchnotes ofzo</div>'+
@@ -1451,11 +1453,10 @@ Game.Launch=function()
 	'<div class="listing">&bull; saysopensesame werkt niet meer 😛</div>'+
 	'<div class="listing">&bull; Golden cookie is haar hoofd in de vorm van een kipnugget, Dat was perongeluk.</div>'+
 	'<div class="listing">&bull; ROGIER ERADUS ZIT ER IN!!!!</div>'+
-	'<div class="listing">&bull; Oh ja ook een dildo + Easytoys natuurlijk..</div>'+
+	'<div class="listing">&bull; Oh ja ook een dildo + Easytoys (medewerker) natuurlijk..</div>'+
 	'<div class="listing">&bull; Een upgrade heeft een andere naam, Succes met hem zoeken</div>'+
 	'<div class="listing">&bull; Koekjes heten nu Tineke Koekjes(werkt half)</div>'+
 	'<div class="listing">&bull; Koekjes achter Tinekes Goddelijke kop zitten nu ook meer Tinekes en Rogiers</div>'+
-	
 	
 	'</div><div class="subsection update">'+
 	'<div class="title">27/02/2025 (Tijd: 17:41) - tinekesieders.nl Cookie Clicker Update</div>'+
