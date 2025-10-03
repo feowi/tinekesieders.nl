@@ -1406,15 +1406,15 @@ Game.Launch=function()
 	'<div class="listing">&bull; Mail was voor een poos kapot, nu weet gefixed.</div>'+
     
 	'</div><div class="subsection update">'+
-	'<div class="title">26/03/2025 - Kleine patchnotes 5.0</div>'+
+	'<div class="title">26/03/2025 - Kleine patchnotes v4.5</div>'+
 	'<div class="listing">&bull; Paar upgrade plaatjes zijn veranderd.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">25/03/2025 - Kleine patchnotes 4.0</div>'+
+	'<div class="title">25/03/2025 - Kleine patchnotes v4.0</div>'+
 	'<div class="listing">&bull; Meer upgrades en achievements hebben Tineke in de naam</div>'+
 
 	'</div><div class="subsection update">'+
-	'<div class="title">21/03/2025 - Kleine patchnotes 3.0</div>'+
+	'<div class="title">21/03/2025 - Kleine patchnotes v3.0</div>'+
 	'<div class="listing">&bull; Tekst bovenaan zegt nu "Tineke Klikker" inplaats van Cookie Clicker</div>'+
 	'<div class="listing">&bull; Google Analytics + Google Adsense support. (Betekent dat ik reclame erop kan doen en zien hoeveel mensen op de website zitten)</div>'+
 
@@ -1427,12 +1427,12 @@ Game.Launch=function()
 	'<div class="listing">&bull; Als je dit ziet geef me ideeën a.u.b 🙏(Ik zou me best proberen met alle ideeën)</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">11/03/2025 - Kleine patchnotes 2.0</div>'+
+	'<div class="title">11/03/2025 - Kleine patchnotes v2.0</div>'+
 	'<div class="listing">&bull; Teksten zijn veranderd. Zie je toch niet</div>'+
 	'<div class="listing">&bull; Geheime achtergrond toegevoegd..</div>'+
 
 	'</div><div class="subsection update">'+
-	'<div class="title">10/03/2025 - Kleine patchnotes ofzo</div>'+
+	'<div class="title">10/03/2025 - Kleine patchnotes v1.5</div>'+
 	'<div class="listing">&bull; Nieuwe bakkerij namen.</div>'+
 	'<div class="listing">&bull; Frankdevisser.nl is toegevoegd bovenaan.</div>'+
 	'<div class="listing">&bull; Saysopensesame werkt nooit meer, Misschien wel, Misschien niet.</div>'+
@@ -1443,7 +1443,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; Nieuwe oma namen toegevoegd.</div>'+
 	
 	'</div><div class="subsection update">'+
-	'<div class="title">03/03/2025 - De Betere tinekesieders.nl Update</div>'+
+	'<div class="title">03/03/2025 - tinekesieders.nl Update (RELEASE) v1.0</div>'+
 	'<div class="listing">&bull; Op dezelfde versie zoals cookieclicker zelf.</div>'+
 	'<div class="listing">&bull; Nieuwe plaatjes aan de zijkant en in het midden.</div>'+
 	'<div class="listing">&bull; Bijna elk achtergrond heeft haar hoofd.</div>'+
@@ -1456,7 +1456,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; Koekjes achter Tinekes Goddelijke kop zitten nu ook meer Tinekes en Rogiers</div>'+
 	
 	'</div><div class="subsection update">'+
-	'<div class="title">27/02/2025 (Tijd: 17:41) - tinekesieders.nl Cookie Clicker Update</div>'+
+	'<div class="title">27/02/2025 (Tijd: 17:41) - tinekesieders.nl Cookie Clicker Update (BETA) v0.5</div>'+
 	'<div class="listing">&bull; De eerste Tineke Klikker Update!</div>'+
 	'<div class="listing">&bull; Cookie is haar hoofd.</div>'+
 	'<div class="listing">&bull; Nieuwe plaatjes aan de zijkant.</div>'+
