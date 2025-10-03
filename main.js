@@ -1325,33 +1325,41 @@ Game.Launch=function()
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">01/10/2025 - Kleine patchnotes 7.35</div>'+
+	'<div class="title">01/10/2025 - Kleine Update v8.00</div>'+
+	'<div class="listing">&bull; Jan Eradus staat nu wel bij het Huis in het midden.</div>'+
+	'<div class="listing">&bull; Nieuwe Plaatjes als je over de winkel aan de rechterkant. (Jan Eradus, Dildo & Banaan Joran)</div>'+
+	'<div class="listing">&bull; Tineke Sieders heeft een nieuwe plaatje.</div>'+
+	'<div class="listing">&bull; 4 Upgrades en 20 Koekjes hebben nu Tineke Sieders haar hoofd.</div>'+
+	'<div class="listing">&bull; Een nieuwe & betere Golden Cookie, Best wel een blitze tineke hoofd.</div>'+
+
+    '</div><div class="subsection update">'+
+	'<div class="title">01/10/2025 - Kleine patchnotes v7.35</div>'+
 	'<div class="listing">&bull; NIEUWE AFBEELDING VOOR DE KOEKJE!!.</div>'+
 	'<div class="listing">&bull; Links onder staat nu de echte versie van het spel.</div>'+
 
 	'</div><div class="subsection update">'+
-	'<div class="title">25/09/2025 - Kleine patchnotes 7.3</div>'+
+	'<div class="title">25/09/2025 - Kleine patchnotes v7.3</div>'+
 	'<div class="listing">&bull; 2 Upgrade namen veranderd.</div>'+
 
 	'</div><div class="subsection update">'+
-	'<div class="title">10/09/2025 - Kleine patchnotes 7.2</div>'+
+	'<div class="title">10/09/2025 - Kleine patchnotes v7.2</div>'+
 	'<div class="listing">&bull; Een oma naam weg door de Eradus Man hemzelf.</div>'+
 
 	'</div><div class="subsection update">'+
-	'<div class="title">26/07/2025 - Kleine patchnotes 7.1 (verveelde me)</div>'+
+	'<div class="title">26/07/2025 - Kleine patchnotes v7.1 (verveelde me)</div>'+
 	'<div class="listing">&bull; 2 Nieuwe duiven toegevoegd.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">25/07/2025 - Kleine patchnotes 7.0</div>'+
+	'<div class="title">25/07/2025 - Kleine patchnotes v7.0</div>'+
 	'<div class="listing">&bull; Dood project dit eig, maar een paar afbeeldingen veranderd.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">08/05/2025 - Kleine patchnotes 6.0</div>'+
+	'<div class="title">08/05/2025 - Kleine patchnotes v6.0</div>'+
 	'<div class="listing">&bull; Erfenis veranderd naar Rebirth, Klinkt mooier.</div>'+
 	'<div class="listing">&bull; 3 Nieuwe oma namen.</div>'+
 	
     '</div><div class="subsection update">'+
-	'<div class="title">08/05/2025 - Kleine patchnotes 5.5</div>'+
+	'<div class="title">08/05/2025 - Kleine patchnotes v5.5</div>'+
 	'<div class="listing">&bull; De Javascript bestand, (waar dus alle code instaat voor de game) was kapot en niks wou laden, Dit is nu weer gefixed.</div>'+
 	
 	'</div><div class="subsection update">'+
