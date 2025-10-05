@@ -1325,7 +1325,7 @@ Game.Launch=function()
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">03/10/2025 - Kleine Patchnotes v8.05</div>'+
+	'<div class="title">05/10/2025 - Kleine Patchnotes v8.05</div>'+
 	'<div class="listing">&bull; Tineke Sieders heeft een nieuwe plaatje maar nu bij de goeie plek.</div>'+
 
     '</div><div class="subsection update">'+
