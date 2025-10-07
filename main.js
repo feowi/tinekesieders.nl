@@ -1337,7 +1337,7 @@ Game.Launch=function()
 	'<div class="listing">&bull; Tineke Sieders heeft een nieuwe plaatje maar nu bij de goeie plek.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">03/10/2025 - Kleine Update v8.00</div>'+
+	'<div class="title">03/10/2025 - Update v8.00</div>'+
 	'<div class="listing">&bull; Jan Eradus staat nu wel bij het Huis in het midden.</div>'+
 	'<div class="listing">&bull; Nieuwe Plaatjes als je over de winkel aan de rechterkant. (Jan Eradus, Dildo & Banaan Joran)</div>'+
 	'<div class="listing">&bull; Tineke Sieders heeft een nieuwe plaatje.</div>'+
