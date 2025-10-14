@@ -1325,7 +1325,7 @@ Game.Launch=function()
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">07/10/2025 - RECLAME v8.07</div>'+
+	'<div class="title">07/10/2025 - RECLAME v8.08</div>'+
 	'<div class="listing">&bull; Hoe vervelend het ook is, We hebben nu reclame. Dit is alleen om tinekesiders.nl levend to houden.</div>'+
 
     '</div><div class="subsection update">'+
