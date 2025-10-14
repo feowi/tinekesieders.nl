@@ -1324,6 +1324,11 @@ Game.Launch=function()
 	'<div class="title">&bull; Heb je nog ideeën? Stuur het naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
+    '<div class="title">&bull; Toekomstige Updates:</div>'+
+	'<div class="listing">&bull; HalperNL Toevoegen.</div>'+
+	'<div class="listing">&bull; Alle Gebouwen hebben de accurate Upgrade Plaatjes / Namen (Dit gaat best wel lang duren)</div>'+
+    '<div class="listing">&bull; Reclame is best wel groot soms, Misschien kleiner maken en de Reclame onderaan het scherm weghalen.</div>'+
+
     '</div><div class="subsection update">'+
 	'<div class="title">14/10/2025 - RECLAME / Kleine Patchnotes v8.08</div>'+
 	'<div class="listing">&bull; Hoe vervelend het ook is, We hebben nu reclame. Dit is alleen om tinekesiders.nl levend to houden.</div>'+
