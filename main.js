@@ -1329,7 +1329,7 @@ Game.Launch=function()
     '<div class="listing">&bull; Reclame is best wel groot soms, Misschien kleiner maken en de Reclame onderaan het scherm weghalen.</div>'+
 
     '</div><div class="subsection update">'+
-	'<div class="title">14/10/2025 - Een nieuwe gebouw... v8.15</div>'+
+	'<div class="title">23/10/2025 - Een nieuwe gebouw... v8.15</div>'+
     '<div class="listing">&bull; HalperNL is toegevoegd (Dit was een request wat jij ook kan doen! Stuur een mail naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
 	'<div class="listing">&bull; 3 Nieuwe icoonen & Upgrades voor HalperNL</div>'+
 
