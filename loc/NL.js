@@ -612,7 +612,7 @@ AddLanguage('NL','dutch',{
 	"Ticker (Alchemy lab)": [
 		"nationale goudvoorraad neemt af omdat steeds meer van het kostbare materiaal wordt omgezet in tineke koekjes!",
 		"men is erachter gekomen dat zilver omgezet kan worden in witte chocolade!",
-		"alchemielab gesloten dat tineke koekjes in waardeloos goud omzette."
+		"HalperNL is gesloten omdat dat tineke koekjes in zijn kanker grote voorhoofd zaten"
 	],
 	"Ticker (Portal)": [
 		"het land maakt zich zorgen, want er komen steeds meer vreemde wezens uit dimensionale portalen!",
@@ -961,14 +961,14 @@ AddLanguage('NL','dutch',{
 	"[Shipment quote]Brings in fresh cookies from the cookie planet.": "Zit te streamen op tiktok in een kanker banaanpak",
 	"[Shipment business name]Supermarket": "Supermarkt",
 	"[Shipment business quote]A gigantic cookie emporium - your very own retail chain.": "Een gigantisch koekjesmagazijn: je eigen retailketen.",
-	"Alchemy lab": "Alchemielab",
-	"alchemy lab": "alchemielab",
-	"alchemy labs": "alchemielabs",
+	"Alchemy lab": "HalperNL",
+	"alchemy lab": "HalperNL",
+	"alchemy labs": "HalperNLs",
 	"%1 alchemy lab": [
-		"%1 alchemielab",
-		"%1 alchemielabs"
+		"%1 HalperNL",
+		"%1 HalperNLs"
 	],
-	"[Alchemy lab quote]Turns gold into cookies!": "Zet goud om in tineke koekjes!",
+	"[Alchemy lab quote]Turns gold into cookies!": "Eet Tineke koekjes op voor een grote voorhoofd!",
 	"[Alchemy lab business name]Stock share": "Aandelen",
 	"[Alchemy lab business quote]You're officially on the stock market, and everyone wants a piece!": "Je zit nu officieel op de aandelenmarkt, en iedereen wil daarvan meegenieten!",
 	"Portal": "Poort",
@@ -2646,7 +2646,7 @@ AddLanguage('NL','dutch',{
 	"[Upgrade name 774]Unshackled temples": "Ontgrendelde Jan Eradus's",
 	"[Upgrade name 775]Unshackled wizard towers": "Ontgrendelde Dildos",
 	"[Upgrade name 776]Unshackled shipments": "Ontgrendelde Banaan Jorans",
-	"[Upgrade name 777]Unshackled alchemy labs": "Ontgrendelde alchemielabs",
+	"[Upgrade name 777]Unshackled alchemy labs": "Ontgrendelde HalperNLs",
 	"[Upgrade name 778]Unshackled portals": "Ontgrendelde portals",
 	"[Upgrade name 779]Unshackled time machines": "Ontgrendelde tijdmachines",
 	"[Upgrade name 780]Unshackled antimatter condensers": "Ontgrendelde antimateriecondensators",
