@@ -1325,9 +1325,13 @@ Game.Launch=function()
 	'<div class="title">&bull; Ga naar <a href="https://domains.tinekesieders.nl" target="_blank">https://domains.tinekesieders.nl</a> voor meer zoals dit.</div>'+
 
     '<div class="title">&bull; Toekomstige Updates:</div>'+
-	'<div class="listing">&bull; HalperNL Toevoegen.</div>'+
 	'<div class="listing">&bull; Alle Gebouwen hebben de accurate Upgrade Plaatjes / Namen (Dit gaat best wel lang duren)</div>'+
     '<div class="listing">&bull; Reclame is best wel groot soms, Misschien kleiner maken en de Reclame onderaan het scherm weghalen.</div>'+
+
+    '</div><div class="subsection update">'+
+	'<div class="title">14/10/2025 - Een nieuwe gebouw... v8.15</div>'+
+    '<div class="listing">&bull; HalperNL is toegevoegd (Dit was een request wat jij ook kan doen! Stuur een mail naar <a href="mailto:info@tinekesieders.nl" target="_blank">info@tinekesieders.nl</a></div>'+
+	'<div class="listing">&bull; 3 Nieuwe icoonen & Upgrades voor HalperNL</div>'+
 
     '</div><div class="subsection update">'+
 	'<div class="title">14/10/2025 - RECLAME / Kleine Patchnotes v8.08</div>'+
